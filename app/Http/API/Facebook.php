@@ -272,7 +272,7 @@ class Facebook
                     'event_name' => $eventName,
                     'event_time' => $eventTime,
                     'event_id' => $eventId,
-                    'user_data' => $user_data,
+                    'user_data' => $this->hashUserData($user_data),
                     'custom_data' => $custom_data
                 ]
             ]
@@ -297,6 +297,19 @@ class Facebook
         ])->getBody()->getContents();
 
         return $response;
+
+    }
+
+    private function hashUserData($userData=[])
+    {
+
+        $newArray = [];
+
+        foreach ($userData as $key => $value) {
+            $newArray[$key] = hash('SHA256', $value);
+        }
+
+        return $newArray;
 
     }
 
