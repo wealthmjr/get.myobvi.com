@@ -268,11 +268,13 @@ class Facebook
 
         $request = [
             'data' => [
-                'event_name' => $eventName,
-                'event_time' => $eventTime,
-                'event_id' => $eventId,
-                'user_data' => $user_data,
-                'custom_data' => $custom_data
+                [
+                    'event_name' => $eventName,
+                    'event_time' => $eventTime,
+                    'event_id' => $eventId,
+                    'user_data' => $user_data,
+                    'custom_data' => $custom_data
+                ]
             ]
         ];
 
