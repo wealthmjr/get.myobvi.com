@@ -290,12 +290,12 @@ class Facebook
 
         //$response = $request->execute();
 
-        echo json_encode($request);
-        exit;
+        //echo json_encode($request);
+        //exit;
 
         $client = new Client();
         $response = $client->post($this->baseApiUrl . '/' . $pixel_id . '/events', [
-            'json' => json_encode($request)
+            'json' => $request
         ])->getBody()->getContents();
 
         return $response;
