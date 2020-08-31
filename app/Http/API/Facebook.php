@@ -294,7 +294,7 @@ class Facebook
         //exit;
 
         $client = new Client();
-        $response = $client->post($this->baseApiUrl . '/' . $pixel_id . '/events', [
+        $response = $client->post($this->baseApiUrl . '/' . $pixel_id . '/events?access_token=' . $this->accessToken, [
             'json' => $request
         ])->getBody()->getContents();
 
