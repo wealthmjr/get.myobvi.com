@@ -32,6 +32,9 @@ class Facebook
         }
 
         $api = Api::init('232598031421241', 'f2a58a95134a7f80758cb1f42d34b750', $access_token);
+        $session = $api->getSession();
+
+        dd($session);
         //$api->setLogger(new CurlLogger());
 
         $user_data = (new UserData());
