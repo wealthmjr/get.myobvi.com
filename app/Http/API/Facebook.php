@@ -294,7 +294,7 @@ class Facebook
         //exit;
 
         $client = new Client();
-        $response = $client->post('https://graph.facebook.com/v8.0/2411511479072900/events?access_token=EAADTiZCMJzzkBAOUTdiZAmhlww7L6yWnoEvY3xBh04ikxZChieiA9iGGbR5ijauL8Bqa35cQiWqqfqjaIe6KI9Ij0qoDMobJQImIK9Kbqm8MDi4aZBSbQ3TIhZAf7QJDKneaZBuxoH2cgof2zWi4sq8y08D16aswUmWZAF4dsZBMoAEbQZChHlETelntOOAiiusYZD', [
+        $response = $client->post('http://requestbin.net/r/uum2nuuu', [
             'headers' => [
                 'Content-Type' => 'application/json'
             ],
