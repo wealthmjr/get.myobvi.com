@@ -186,106 +186,85 @@ class Facebook
 
         if(isset($userDataArr['ip_address']))
         {
-            $user_data[] = ($userDataArr['ip_address']);
+            $user_data['client_ip_address'] = ($userDataArr['ip_address']);
         }
 
         if(isset($userDataArr['user_agent']))
         {
-            $user_data[] = ($userDataArr['user_agent']);
+            $user_data['client_user_agent'] = ($userDataArr['user_agent']);
         }
 
         if (isset($userDataArr['email']))
         {
-            $user_data[] = ($userDataArr['email']);
+            $user_data['em'] = ($userDataArr['email']);
         }
 
         if (isset($userDataArr['phone']))
         {
-            $user_data[] = ($userDataArr['phone']);
+            $user_data['ph'] = ($userDataArr['phone']);
         }
 
         if (isset($userDataArr['fbc']))
         {
-            $user_data[] = ($userDataArr['fbc']);
-        }
-
-        if (isset($userDataArr['fbclid']))
-        {
-            $fbc = 'fb.1.' . time() . '.' . $userDataArr['fbclid'];
-            $user_data[] = ($fbc);
+            $user_data['fbc'] = ($userDataArr['fbc']);
         }
 
         if (isset($userDataArr['fbp']))
         {
-            $user_data[] = ($userDataArr['fbp']);
+            $user_data['fbp'] = ($userDataArr['fbp']);
         }
 
         if (isset($userDataArr['first_name']))
         {
-            $user_data[] = ($userDataArr['first_name']);
+            $user_data['fn'] = ($userDataArr['first_name']);
         }
 
         if (isset($userDataArr['last_name']))
         {
-            $user_data[] = ($userDataArr['last_name']);
+            $user_data['ln'] = ($userDataArr['last_name']);
         }
 
         if (isset($userDataArr['city']))
         {
-            $user_data[] = ($userDataArr['city']);
+            $user_data['ct'] = ($userDataArr['city']);
         }
 
         if (isset($userDataArr['state']))
         {
-            $user_data[] = ($userDataArr['state']);
+            $user_data['st'] = ($userDataArr['state']);
         }
 
         if (isset($userDataArr['zip_code']))
         {
-            $user_data[] = ($userDataArr['zip_code']);
+            $user_data['zp'] = ($userDataArr['zip_code']);
         }
 
         if (isset($userDataArr['country_code']))
         {
-            $user_data[] = ($userDataArr['country_code']);
+            $user_data['country'] = ($userDataArr['country_code']);
         }
 
         if (isset($userDataArr['gender']))
         {
-            $user_data[] = ($userDataArr['gender']);
+            $user_data['ge'] = ($userDataArr['gender']);
         }
 
         if (isset($userDataArr['dob']))
         {
-            $user_data[] = ($userDataArr['dob']);
+            $user_data['db'] = ($userDataArr['dob']);
         }
 
         $custom_data = [];
 
         if (isset($customDataArr['currency']))
         {
-            $custom_data[] = ($customDataArr['currency']);
+            $custom_data['currency'] = ($customDataArr['currency']);
         }
 
         if (isset($customDataArr['value']))
         {
-            $custom_data[] = ($customDataArr['value']);
+            $custom_data['value'] = ($customDataArr['value']);
         }
-
-        $event = [];
-
-        if($eventId !== null)
-        {
-            $event[] = ($eventId);
-        }
-
-        if (isset($customDataArr['value']))
-        {
-            $custom_data[] = ($customDataArr['value']);
-        }
-
-        $events = array();
-        array_push($events, $event);
 
         $request = [
             'data' => [
@@ -297,12 +276,17 @@ class Facebook
             ]
         ];
 
-        dd(json_encode($request));
+        if($eventId !== null)
+        {
+            $event['event_id'] = ($eventId);
+        }
 
         if($testCode !== null)
         {
             $request['test_event_code'] = ($testCode);
         }
+
+        dd(json_encode($request));
 
         //$response = $request->execute();
         $client = new Client();
