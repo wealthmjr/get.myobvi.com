@@ -23,7 +23,7 @@ Route::group(['prefix' => '/api'], function () {
 
         Route::group(['prefix' => '/shopify'], function () {
 
-            Route::any('/webhooks/create-checkout', function (\Illuminate\Http\Request $request) {
+            Route::any('/create-checkout', function (\Illuminate\Http\Request $request) {
 
                 $client = new \GuzzleHttp\Client();
                 $client->post('https://webhook.site/351b111d-5759-4b54-ac69-3a7aafd03ad2', [
@@ -32,7 +32,7 @@ Route::group(['prefix' => '/api'], function () {
 
             });
 
-            Route::any('/webhooks/create-order', function (\Illuminate\Http\Request $request) {
+            Route::any('/create-order', function (\Illuminate\Http\Request $request) {
 
                 $client = new \GuzzleHttp\Client();
                 $client->post('https://webhook.site/351b111d-5759-4b54-ac69-3a7aafd03ad2', [
