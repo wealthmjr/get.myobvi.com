@@ -25,6 +25,8 @@ Route::group(['prefix' => '/api'], function () {
 
             Route::any('/create-checkout', function (\Illuminate\Http\Request $request) {
 
+                Log::info($request->getContent());
+
                 $client = new \GuzzleHttp\Client();
                 $client->post('https://webhook.site/351b111d-5759-4b54-ac69-3a7aafd03ad2', [
                    'json' => json_decode($request->getContent())
