@@ -125,7 +125,7 @@ Route::group(['prefix' => '/api'], function () {
                     'value' => $payout
                 ];
 
-                $fbAPI = new \App\Http\API\Facebook('EAADTiZCMJzzkBAK9dJFH6TzioMA2rTNZBzsxA3uMbjrNKwjRuJHTR6zxBHWVPlgJlCgVVSWgPRPhhqpOjmSmnFvrAu5ldHY77ddigac7E73ZCwMvdZCPqxmqfKnaY0shAm0SjeSmjZC0uosmbeEd6VC3zq4Y6v8uIMZBJigzWD8lPffWZCrZBlZBnwN1chRkpMqgZD');
+                $fbAPI = new \App\Http\API\Facebook('EAADTiZCMJzzkBAOUTdiZAmhlww7L6yWnoEvY3xBh04ikxZChieiA9iGGbR5ijauL8Bqa35cQiWqqfqjaIe6KI9Ij0qoDMobJQImIK9Kbqm8MDi4aZBSbQ3TIhZAf7QJDKneaZBuxoH2cgof2zWi4sq8y08D16aswUmWZAF4dsZBMoAEbQZChHlETelntOOAiiusYZD');
                 $response = $fbAPI->sendServerSideEvent($pixelId, $eventName, $eventTime, $eventId, $userData, $customData, $testCode);
 
                 return $response;
