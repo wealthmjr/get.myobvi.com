@@ -149,7 +149,7 @@ class Facebook
 
         $request = (new EventRequest($pixel_id))->setEvents($events);
 
-        dd($request);
+        //dd($request);
 
         if($testCode !== null)
         {
@@ -157,6 +157,8 @@ class Facebook
         }
 
         $response = $request->execute();
+
+        dd($response);
 
         return $response;
 
