@@ -32,6 +32,8 @@ Route::group(['prefix' => '/api'], function () {
                    'json' => json_decode($request->getContent())
                 ]);
 
+                return response()->json(['success' => true]);
+
             });
 
             Route::any('/create-order', function (\Illuminate\Http\Request $request) {
