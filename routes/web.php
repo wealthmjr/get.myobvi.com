@@ -27,10 +27,12 @@ Route::group(['prefix' => '/api'], function () {
 
                 $rawPostData = file_get_contents("php://input");
                 Log::info($rawPostData);
+                $jsonObject = json_decode($rawPostData);
+
 
                 $client = new \GuzzleHttp\Client();
                 $client->post('https://webhook.site/351b111d-5759-4b54-ac69-3a7aafd03ad2', [
-                   'json' => json_decode($request->getContent())
+                   'json' => $jsonObject
                 ]);
 
                 return response()->json(['success' => true]);
