@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff807b9ef66b162742e57263d2cc1342",
+    "content-hash": "36b8724a31cdcbb83945487dcabc8fe9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -390,16 +390,16 @@
         },
         {
             "name": "facebook/php-business-sdk",
-            "version": "6.0.0",
+            "version": "8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/facebook-php-business-sdk.git",
-                "reference": "32c8678d3c50e0570b68d7cbb23062c16a5faf15"
+                "reference": "26d79d5c33aff01ade2192e1720ab3f646ae8aa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-business-sdk/zipball/32c8678d3c50e0570b68d7cbb23062c16a5faf15",
-                "reference": "32c8678d3c50e0570b68d7cbb23062c16a5faf15",
+                "url": "https://api.github.com/repos/facebook/facebook-php-business-sdk/zipball/26d79d5c33aff01ade2192e1720ab3f646ae8aa9",
+                "reference": "26d79d5c33aff01ade2192e1720ab3f646ae8aa9",
                 "shasum": ""
             },
             "require-dev": {
@@ -423,7 +423,7 @@
                 "page",
                 "sdk"
             ],
-            "time": "2020-02-03T20:06:10+00:00"
+            "time": "2020-08-05T05:08:38+00:00"
         },
         {
             "name": "fideloper/proxy",
