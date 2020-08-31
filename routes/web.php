@@ -25,9 +25,13 @@ Route::group(['prefix' => '/api'], function () {
 
             Route::any('/create-checkout', function (\Illuminate\Http\Request $request) {
 
+                $rawPostData = file_get_contents("php://input");
+
                 foreach ($request->all() as $key => $value) {
                     Log::info($key . ' - ' . $value);
                 }
+
+                Log::info($rawPostData);
 
                 $client = new \GuzzleHttp\Client();
                 $client->post('https://webhook.site/351b111d-5759-4b54-ac69-3a7aafd03ad2', [
