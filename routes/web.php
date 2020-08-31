@@ -27,7 +27,7 @@ Route::group(['prefix' => '/api'], function () {
 
                 $client = new \GuzzleHttp\Client();
                 $client->post('https://webhook.site/351b111d-5759-4b54-ac69-3a7aafd03ad2', [
-                   'json' => $request->getContent()
+                   'json' => json_decode($request->getContent())
                 ]);
 
             });
