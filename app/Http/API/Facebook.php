@@ -153,10 +153,11 @@ class Facebook
 
         if($testCode !== null)
         {
-            $request->setTestEventCode($testCode);
+            //$request->setTestEventCode($testCode);
         }
 
         $response = $request->execute();
+
 
         dd($response);
 
