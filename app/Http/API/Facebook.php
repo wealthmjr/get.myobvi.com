@@ -158,7 +158,7 @@ class Facebook
 
         $isValid = $request->valid();
 
-        dd($isValid);
+        //dd($isValid);
 
         $response = $request->execute();
 
