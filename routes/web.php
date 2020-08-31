@@ -72,8 +72,8 @@ Route::group(['prefix' => '/api'], function () {
 
                 $testCode = $request->get('test_code', null);
 
-                $payout = $request->get('price', 0);
-                $currency = 'USD';
+                $payout = $request->get('price', null);
+                $currency = null;
 
                 $fbClid = $request->get('fbclid', null);
                 $fbc = $request->get('fbc', null);
