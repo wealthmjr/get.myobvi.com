@@ -132,7 +132,7 @@ class Facebook
             ->setUserData($user_data)
             ->setCustomData($custom_data);
 
-        dd($event);
+        //dd($event);
 
         if($eventId !== null)
         {
@@ -148,6 +148,8 @@ class Facebook
         array_push($events, $event);
 
         $request = (new EventRequest($pixel_id))->setEvents($events);
+
+        dd($request);
 
         if($testCode !== null)
         {
