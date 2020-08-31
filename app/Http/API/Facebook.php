@@ -186,12 +186,12 @@ class Facebook
 
         if(isset($userDataArr['ip_address']))
         {
-            $user_data['client_ip_address'] = ($userDataArr['ip_address']);
+            //$user_data['client_ip_address'] = ($userDataArr['ip_address']);
         }
 
         if(isset($userDataArr['user_agent']))
         {
-            $user_data['client_user_agent'] = ($userDataArr['user_agent']);
+            //$user_data['client_user_agent'] = ($userDataArr['user_agent']);
         }
 
         if (isset($userDataArr['email']))
