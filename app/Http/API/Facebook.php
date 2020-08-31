@@ -288,8 +288,6 @@ class Facebook
             $request['test_event_code'] = ($testCode);
         }
 
-        dd(json_encode($request));
-
         //$response = $request->execute();
         $client = new Client();
         $response = $client->post($this->baseApiUrl . '/' . $pixel_id . '/events', [
