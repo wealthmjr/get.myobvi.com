@@ -23,7 +23,7 @@ Route::group(['prefix' => '/api'], function () {
 
         Route::group(['prefix' => '/shopify'], function () {
 
-            Route::any('/create-checkout', function (\Illuminate\Http\Request $request) {
+            Route::post('/create-checkout', function (\Illuminate\Http\Request $request) {
 
                 $rawPostData = file_get_contents("php://input");
 
@@ -42,7 +42,7 @@ Route::group(['prefix' => '/api'], function () {
 
             });
 
-            Route::any('/create-order', function (\Illuminate\Http\Request $request) {
+            Route::post('/create-order', function (\Illuminate\Http\Request $request) {
 
                 $rawPostData = file_get_contents("php://input");
 
