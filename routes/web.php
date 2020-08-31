@@ -26,11 +26,6 @@ Route::group(['prefix' => '/api'], function () {
             Route::post('/create-checkout', function (\Illuminate\Http\Request $request) {
 
                 $rawPostData = file_get_contents("php://input");
-
-                foreach ($request->all() as $key => $value) {
-                    Log::info($key . ' - ' . $value);
-                }
-
                 Log::info($rawPostData);
 
                 $client = new \GuzzleHttp\Client();
@@ -45,11 +40,6 @@ Route::group(['prefix' => '/api'], function () {
             Route::post('/create-order', function (\Illuminate\Http\Request $request) {
 
                 $rawPostData = file_get_contents("php://input");
-
-                foreach ($request->all() as $key => $value) {
-                    Log::info($key . ' - ' . $value);
-                }
-
                 Log::info($rawPostData);
 
                 $client = new \GuzzleHttp\Client();
