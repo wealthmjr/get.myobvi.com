@@ -302,11 +302,14 @@ class Facebook
 
     private function hashUserData($userData=[])
     {
-
+        $restrictedParams = ['fbp', 'fbc'];
         $newArray = [];
 
         foreach ($userData as $key => $value) {
-            $newArray[$key] = hash('SHA256', $value);
+            if(!in_array($key, $restrictedParams))
+            {
+                $newArray[$key] = hash('SHA256', $value);
+            }
         }
 
         return $newArray;
