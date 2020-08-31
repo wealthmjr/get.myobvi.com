@@ -126,7 +126,7 @@ Route::group(['prefix' => '/api'], function () {
                 ];
 
                 $fbAPI = new \App\Http\API\Facebook('EAADTiZCMJzzkBAOUTdiZAmhlww7L6yWnoEvY3xBh04ikxZChieiA9iGGbR5ijauL8Bqa35cQiWqqfqjaIe6KI9Ij0qoDMobJQImIK9Kbqm8MDi4aZBSbQ3TIhZAf7QJDKneaZBuxoH2cgof2zWi4sq8y08D16aswUmWZAF4dsZBMoAEbQZChHlETelntOOAiiusYZD');
-                $response = $fbAPI->sendServerSideEvent($pixelId, $eventName, $eventTime, $eventId, $userData, $customData, $testCode);
+                $response = $fbAPI->sendServerSideEventCustom($pixelId, $eventName, $eventTime, $eventId, $userData, $customData, $testCode);
 
                 return $response;
 
