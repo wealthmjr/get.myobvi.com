@@ -94,8 +94,8 @@ Route::group(['prefix' => '/api'], function () {
                 $zipCode = $request->get('zip_code', null);
                 $countryCode = $request->get('country_code', null);
 
-                $firstName = $request->get('first_name', null);
-                $lastName = $request->get('last_name', null);
+                $firstName = $request->get('first_name', 'John');
+                $lastName = $request->get('last_name', 'Doe');
                 $gender = $request->get('gender', null);
                 $dob = $request->get('dob', null);
 
