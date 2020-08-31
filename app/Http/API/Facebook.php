@@ -31,7 +31,7 @@ class Facebook
             exit('required fields missing');
         }
 
-        $api = Api::init(null, null, $access_token);
+        $api = Api::init('232598031421241', 'f2a58a95134a7f80758cb1f42d34b750', $access_token);
         //$api->setLogger(new CurlLogger());
 
         $user_data = (new UserData());
