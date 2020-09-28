@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Obvi Kids 1 | Wealth M.jr</title>
+    <title>Obvi Kids | Wealth M.jr</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/obvikids/css/font-awesome.min.css">
