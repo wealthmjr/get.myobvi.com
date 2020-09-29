@@ -9,6 +9,11 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/obvikids/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
+
+
+
+    ">
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <!-- Bootstrap core CSS -->
@@ -51,11 +56,11 @@
                     <ul class="nav-bar">
                         <li class="close-menu-btn"><span>Close</span></li>
                         <li>
-                            <a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Shop <i
+                            <a href="/"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Shop <i
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/collections/collagen" class="sub-link">
                                         <img src="/obvikids/images/menu-1.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Super Collagen Protein</span>
@@ -64,7 +69,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/collections/obvi-kids-complete-proteins" class="sub-link">
                                         <img src="/obvikids/images/menu-2.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Kid's Complete Protein</span>
@@ -73,7 +78,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/obvi-collagenic-fat-burner" class="sub-link">
                                         <img src="/obvikids/images/menu-3.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Collagenic™ Fat Burner</span>
@@ -82,7 +87,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/obvi-vegan-collagen-booster" class="sub-link">
                                         <img src="/obvikids/images/menu-4.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Vegan Collagen Booster</span>
@@ -91,7 +96,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/superfood-pinks-pink-lemonade" class="sub-link">
                                         <img src="/obvikids/images/menu-5.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Obvimmunity Series</span>
@@ -106,7 +111,7 @@
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/apps/bundles/bundle/24772" class="sub-link">
                                         <i class="fa fa-cubes" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Build Your Own Bundle</span>
@@ -115,7 +120,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/beauty-burn-bundle" class="sub-link">
                                         <i class="fa fa-fire" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Beauty & Burn Bundle</span>
@@ -124,7 +129,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/mommy-me-protein-bundle" class="sub-link">
                                         <i class="fa fa-heart" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Mommy & Me</span>
@@ -133,7 +138,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/collagen-lovers-protein-bundle" class="sub-link">
                                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Collagen Lovers</span>
@@ -142,7 +147,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/obvi-kids-complete-protein-lovers-bundle" class="sub-link">
                                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Kid's Lovers</span>
@@ -151,7 +156,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/collections/bundle-save-with-obvi" class="sub-link">
                                         <i class="fa fa-cubes" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Shop All Bundles</span>
@@ -165,7 +170,7 @@
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/pages/international-inquiries" class="sub-link">
                                         <i class="fa fa-plane" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">International</span>
@@ -173,7 +178,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/pages/wholesale-inquiries" class="sub-link">
                                         <i class="fa fa-truck" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Domestic</span>
@@ -182,14 +187,14 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#"><i class="fa fa-heartbeat" aria-hidden="true"></i> Blog/Recipes</a></li>
-                        <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Obvi Gear</a></li>
+                        <li><a href="https://myobvi.com/pages/blog"><i class="fa fa-heartbeat" aria-hidden="true"></i> Blog/Recipes</a></li>
+                        <li><a href="https://myobvi.com/collections/apparel-accessories"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Obvi Gear</a></li>
                         <li class="drop-down">
                             <a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Help Center <i
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/pages/contact-us" class="sub-link">
                                         <i class="fa fa-inbox" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Contact Us</span>
@@ -197,7 +202,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/apps/help-center" class="sub-link">
                                         <i class="fa fa-question-circle-o" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">FAQ</span>
@@ -205,7 +210,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://affiliates.myobvi.com/" class="sub-link">
                                         <i class="fa fa-group" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Affiliate Program</span>
@@ -881,18 +886,18 @@
                             </a>
                             <div class="select_flavors">
                                 <h3>Select Kid's Protein Flavor</h3>
-                                <select class="mdb-select md-form">
+                                <select class="mdb-select md-form" id="select-protein-1">
                                     <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="1">Kid's Fruity Cereal</option>
-                                    <option value="2">Kid's Cocoa Cereal</option>
-                                    <option value="3">Kid's Cookie Cereal</option>
-                                    <option value="3">Kid's Marshmallow Cereal</option>
+                                    <option value="https://myobvi.com/collections/obvi-kids-complete-proteins/products/obvi-kids-complete-protein-fruity-cereal">Kid's Fruity Cereal</option>
+                                    <option value="https://myobvi.com/collections/obvi-kids-complete-proteins/products/obvi-kids-complete-protein-cocoa-cereal">Kid's Cocoa Cereal</option>
+                                    <option value="https://myobvi.com/collections/obvi-kids-complete-proteins/products/obvi-kids-complete-protein-cookie-cereal">Kid's Cookie Cereal</option>
+                                    <option value="https://myobvi.com/collections/obvi-kids-complete-proteins/products/obvi-kids-complete-protein-marshmallow-cereal">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                         </div>
                     </div>
                     <div class="section-footer">
-                        <a href="#" class="primery_btn">BUY NOW</a>
+                        <a href="#" class="primery_btn" id="buy-protein-1">BUY NOW</a>
                         <span>One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
                         <!-- <img src="/obvikids/images/multiple-flavors-available.jpg" alt="" /> -->
                     </div>
@@ -920,7 +925,7 @@
                             </a>
                             <div class="select_flavors">
                                 <h3>Select First Flavor</h3>
-                                <select class="mdb-select md-form">
+                                <select class="mdb-select md-form" id="flavor-1">
                                     <option value="" disabled selected>Choose your Flavor</option>
                                     <option value="1">Kid's Fruity Cereal</option>
                                     <option value="2">Kid's Cocoa Cereal</option>
@@ -930,7 +935,7 @@
                             </div>
                             <div class="select_flavors">
                                 <h3>Select Second Flavor</h3>
-                                <select class="mdb-select md-form">
+                                <select class="mdb-select md-form" id="flavor-2">
                                     <option value="" disabled selected>Choose your Flavor</option>
                                     <option value="1">Kid's Fruity Cereal</option>
                                     <option value="2">Kid's Cocoa Cereal</option>
@@ -941,7 +946,7 @@
                         </div>
                     </div>
                     <div class="section-footer">
-                        <a href="#" class="primery_btn">BUY NOW</a>
+                        <a href="#" class="primery_btn" id="buy-protein-2">BUY NOW</a>
                         <span>One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
 
                     </div>
@@ -969,7 +974,7 @@
                             </a>
                             <div class="select_flavors">
                                 <h3>Select Super Collagen Flavor</h3>
-                                <select class="mdb-select md-form">
+                                <select class="mdb-select md-form" id="collagen-flavor">
                                     <option value="" disabled selected>Choose your Flavor</option>
                                     <option value="1">Fruity Cereal</option>
                                     <option value="2">Cinna Cereal</option>
@@ -980,7 +985,7 @@
                             </div>
                             <div class="select_flavors">
                                 <h3>Select Kid's Protein Flavor</h3>
-                                <select class="mdb-select md-form">
+                                <select class="mdb-select md-form" id="kidsprotein-flavor">
                                     <option value="" disabled selected>Choose your Flavor</option>
                                     <option value="1">Kid's Fruity Cereal</option>
                                     <option value="2">Kid's Cocoa Cereal</option>
@@ -992,7 +997,7 @@
                         </div>
                     </div>
                     <div class="section-footer">
-                        <a href="#" class="primery_btn">BUY NOW</a>
+                        <a href="#" class="primery_btn" id="buy-protein-3">BUY NOW</a>
                         <span>One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
                     </div>
                 </div>

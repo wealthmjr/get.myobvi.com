@@ -1,13 +1,5 @@
 $(document).ready(function () {
-    // $('header #search-btn').click(function () {
-    //     $('.search-dropdown').addClass('show');
-    // });
-    // $('.search-dropdown #close-btn').click(function () {
-    //     $('.search-dropdown').removeClass('show');
-    // });
-
     // responsive sub-menu
-    // alert("custom");
     var width = $(window).width();
     if (width < 1200) {
         $('.nav-bar li').click(function () {
@@ -30,4 +22,37 @@ $(document).ready(function () {
             }
         });
     }
+
+    $("#buy-protein-1").click(function (e) {
+        e.preventDefault();
+        if ($("#select-protein-1").val() !== null) {
+            window.location.href = $("#select-protein-1").val();
+        }
+    });
+
+    $("#buy-protein-2").click(function (e) {
+        e.preventDefault();
+        var flavor1 = $("#flavor-1").val();
+        var flavor2 = $("#flavor-2").val();
+
+        if (flavor1 !== null && flavor2 !== null) {
+            window.location.href = "https://myobvi.com/collections/obvi-kids-complete-proteins";
+        } else {
+            // alert("select some value!!!");
+        }
+
+    });
+
+    $("#buy-protein-3").click(function (e) {
+        e.preventDefault();
+        var flavor1 = $("#collagen-flavor").val();
+        var flavor2 = $("#kidsprotein-flavor").val();
+
+        if (flavor1 !== null && flavor2 !== null) {
+            window.location.href = "https://myobvi.com/collections/obvi-kids-complete-proteins";
+        } else {
+            // alert("select some value!!!");
+        }
+
+    });
 });
