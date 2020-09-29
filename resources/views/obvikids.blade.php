@@ -245,7 +245,7 @@
                     balanced nutrition to help them grow and develop. See why thousands of moms are trusting Obvi’s Kids
                     Complete Protein everyday</p>
                 <div class="section-footer">
-                    <a href="#" class="primery_btn">Try It Out</a>
+                    <a href="#pkg_sec" class="primery_btn">Try It Out</a>
                     <span>60 DAY MONEY-BACK GUARANTEE</span>
                 </div>
             </div>
@@ -325,7 +325,7 @@
                         of the pickiest of eaters and satisfied parents who are overjoyed when their child WANTS another
                         scoop of our nutrient-dense Kid’s Complete Protein because it tastes so good.</p>
                     <div class="section-footer">
-                        <a href="#" class="primery_btn">Try It Out</a>
+                        <a href="#pkg_sec" class="primery_btn">Try It Out</a>
                     </div>
                 </div>
                 <div class="content-image">
@@ -379,7 +379,7 @@
                 </div>
             </div>
             <div class="section-footer">
-                <a href="#" class="primery_btn">Try It Out</a>
+                <a href="#pkg_sec" class="primery_btn">Try It Out</a>
                 <span>60 DAY MONEY-BACK GUARANTEE</span>
             </div>
         </div>
@@ -445,7 +445,7 @@
                 </div>
             </div>
             <div class="section-footer">
-                <a href="#" class="primery_btn">Try It Out</a>
+                <a href="#pkg_sec" class="primery_btn">Try It Out</a>
                 <span>60 DAY MONEY-BACK GUARANTEE</span>
             </div>
         </div>
@@ -671,7 +671,7 @@
                 <img src="/obvikids/images/other_images/asset_31.png" alt="" />
                 <img src="/obvikids/images/mobile_images/mobile-only.png" alt=""
                     class="nutients_table_mobile_img" />
-                <a href="#" class="primery_btn">Try It Out</a>
+                <a href="#pkg_sec" class="primery_btn">Try It Out</a>
             </div>
         </div>
     </section>
@@ -715,7 +715,7 @@
                             product my child loves and is healthy for him. We love the fruity flavors. I am a forever
                             customer now!</p>
                         <div class="section-footer">
-                            <a href="#" class="primery_btn">Try It Out</a>
+                            <a href="#pkg_sec" class="primery_btn">Try It Out</a>
                             <span>60 DAY MONEY-BACK GUARANTEE</span>
                         </div>
                     </div>
@@ -731,7 +731,7 @@
                             treatment, he lost LOTS of weight! OBVI is helping him gain his weight back and hes loving
                             it! So far he has gained almost 3 pounds putting him at 21lbs 🙌🏼🙌🏼</p>
                         <div class="section-footer">
-                            <a href="#" class="primery_btn">Try It Out</a>
+                            <a href="#pkg_sec" class="primery_btn">Try It Out</a>
                             <span>60 DAY MONEY-BACK GUARANTEE</span>
                         </div>
                     </div>
@@ -855,7 +855,7 @@
 
     <!----Packages Section Start-->
 
-    <section class="package_section">
+    <section id="pkg_sec" class="package_section">
         <div class="container">
             <div class="top-heading">
                 <span>READY TO TRY IT OUT YOURSELF?</span>
@@ -888,10 +888,10 @@
                                 <h3>Select Kid's Protein Flavor</h3>
                                 <select class="mdb-select md-form" id="select-protein-1">
                                     <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="https://myobvi.com/collections/obvi-kids-complete-proteins/products/obvi-kids-complete-protein-fruity-cereal">Kid's Fruity Cereal</option>
-                                    <option value="https://myobvi.com/collections/obvi-kids-complete-proteins/products/obvi-kids-complete-protein-cocoa-cereal">Kid's Cocoa Cereal</option>
-                                    <option value="https://myobvi.com/collections/obvi-kids-complete-proteins/products/obvi-kids-complete-protein-cookie-cereal">Kid's Cookie Cereal</option>
-                                    <option value="https://myobvi.com/collections/obvi-kids-complete-proteins/products/obvi-kids-complete-protein-marshmallow-cereal">Kid's Marshmallow Cereal</option>
+                                    <option value="31560275132465:1">Kid's Fruity Cereal</option>
+                                    <option value="31560276508721:1">Kid's Cocoa Cereal</option>
+                                    <option value="32014563835953:1">Kid's Cookie Cereal</option>
+                                    <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                         </div>
@@ -927,20 +927,20 @@
                                 <h3>Select First Flavor</h3>
                                 <select class="mdb-select md-form" id="flavor-1">
                                     <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="1">Kid's Fruity Cereal</option>
-                                    <option value="2">Kid's Cocoa Cereal</option>
-                                    <option value="3">Kid's Cookie Cereal</option>
-                                    <option value="4">Kid's Marshmallow Cereal</option>
+                                    <option value="31560275132465:1">Kid's Fruity Cereal</option>
+                                    <option value="31560276508721:1">Kid's Cocoa Cereal</option>
+                                    <option value="32014563835953:1">Kid's Cookie Cereal</option>
+                                    <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                             <div class="select_flavors">
                                 <h3>Select Second Flavor</h3>
                                 <select class="mdb-select md-form" id="flavor-2">
                                     <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="1">Kid's Fruity Cereal</option>
-                                    <option value="2">Kid's Cocoa Cereal</option>
-                                    <option value="3">Kid's Cookie Cereal</option>
-                                    <option value="4">Kid's Marshmallow Cereal</option>
+                                    <option value="31560275132465:1">Kid's Fruity Cereal</option>
+                                    <option value="31560276508721:1">Kid's Cocoa Cereal</option>
+                                    <option value="2014563835953:1">Kid's Cookie Cereal</option>
+                                    <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                         </div>
@@ -976,22 +976,21 @@
                                 <h3>Select Super Collagen Flavor</h3>
                                 <select class="mdb-select md-form" id="collagen-flavor">
                                     <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="1">Fruity Cereal</option>
-                                    <option value="2">Cinna Cereal</option>
-                                    <option value="3">Cocoa Cereal</option>
-                                    <option value="4">Frosted Cereal</option>
-                                    <option value="5">HoneyOs Cereal</option>
+                                    <option value="30287994290225:1">Fruity Cereal</option>
+                                    <option value="30287992258609:1">Cinna Cereal</option>
+                                    <option value="30287993897009:1">Cocoa Cereal</option>
+                                    <option value="30943226789937:1">Frosted Cereal</option>
+                                    <option value="31450115342385:1">HoneyOs Cereal</option>
                                 </select>
                             </div>
                             <div class="select_flavors">
                                 <h3>Select Kid's Protein Flavor</h3>
                                 <select class="mdb-select md-form" id="kidsprotein-flavor">
                                     <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="1">Kid's Fruity Cereal</option>
-                                    <option value="2">Kid's Cocoa Cereal</option>
-                                    <option value="3">Kid's Cookie Cereal</option>
-                                    <option value="3">Kid's Marshmallow Cereal</option>
-                                    <option value="3">Kid's Cookie Cereal</option>
+                                    <option value="31560275132465:1">Kid's Fruity Cereal</option>
+                                    <option value="31560276508721:1">Kid's Cocoa Cereal</option>
+                                    <option value="2014563835953:1">Kid's Cookie Cereal</option>
+                                    <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                         </div>
@@ -1377,7 +1376,7 @@
                     <p>find out why 10,000+ Parents have made the switch to obvi</p>
                 </div>
                 <div class="section-footer">
-                    <a href="#" class="primery_btn">Try It Out</a>
+                    <a href="#pkg_sec" class="primery_btn">Try It Out</a>
                     <span>60 DAY MONEY-BACK GUARANTEE</span>
                 </div>
             </div>

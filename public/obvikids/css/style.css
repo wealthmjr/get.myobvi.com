@@ -106,8 +106,12 @@
 }
 
 /************ Globle Css ***********/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'Arial';
 }
 
 * {
