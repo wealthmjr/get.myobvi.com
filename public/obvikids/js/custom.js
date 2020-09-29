@@ -40,11 +40,17 @@ $(document).ready(function () {
         var flavor1 = $("#flavor-1").val();
         var flavor2 = $("#flavor-2").val();
 
-
         if (flavor1 !== null && flavor2 !== null) {
             window.location.href = cart_url + flavor1 + "," + flavor2;
         } else {
-            // alert("select some value!!!");
+            if (flavor1 !== null) {
+                // alert("flavor1");
+                window.location.href = cart_url + flavor1;
+            }
+            if (flavor2 !== null) {
+                // alert("flavor2");
+                window.location.href = cart_url + flavor2;
+            }
         }
 
     });

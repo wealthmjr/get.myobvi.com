@@ -939,7 +939,7 @@
                                     <option value="" disabled selected>Choose your Flavor</option>
                                     <option value="31560275132465:1">Kid's Fruity Cereal</option>
                                     <option value="31560276508721:1">Kid's Cocoa Cereal</option>
-                                    <option value="2014563835953:1">Kid's Cookie Cereal</option>
+                                    <option value="32014563835953:1">Kid's Cookie Cereal</option>
                                     <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
