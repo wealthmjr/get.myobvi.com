@@ -36,6 +36,16 @@ $(document).ready(function () {
         var cart_url = "https://myobvi.com/cart/";
         var protein_val = $("#select-protein-1").val();
 
+        fbq('track', 'AddToCart',
+            // begin required parameter object
+            {
+                value: 39.99,
+                currency: 'USD',
+                content_type: 'product',
+                content_ids: '201'
+            }
+        );
+
         if ($("#select-protein-1").val() !== null) {
             // alert(cart_url + protein_val);
             window.location.href = cart_url + protein_val;
@@ -78,4 +88,10 @@ $(document).ready(function () {
         //     // alert("select some value!!!");
         // }
     });
+
+    //content_type: product_group
+    // content_ids: [2162729025585]
+    // value: 39.99
+    // num_items: 1
+    // currency: USD
 });

@@ -31,7 +31,25 @@
         })();
     </script>
     {{-- GA tracking code ends --}}
-    
+
+<!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2411511479072900');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2411511479072900&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -698,7 +716,7 @@
                     <div class="section-footer">
                         <a href="#" class="primery_btn" id="buy-protein-1">BUY NOW</a>
                         <span>One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
-                        <img src="/collagenassets/images/multiple-flavors.webp" alt="" /> 
+                        <img src="/collagenassets/images/multiple-flavors.webp" alt="" />
                     </div>
                 </div>
                 <div class="package">
@@ -743,7 +761,7 @@
                     <div class="section-footer">
                         <a href="#" class="primery_btn" id="buy-protein-2">BUY NOW</a>
                         <span>One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
-                        <img src="/collagenassets/images/multiple-flavors.webp" alt="" /> 
+                        <img src="/collagenassets/images/multiple-flavors.webp" alt="" />
                     </div>
                 </div>
                 <div class="package">
@@ -794,7 +812,7 @@
                     <div class="section-footer">
                         <a href="#" class="primery_btn" id="buy-protein-3">BUY NOW</a>
                         <span>One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
-                        <img src="/collagenassets/images/multiple-flavors.webp" alt="" /> 
+                        <img src="/collagenassets/images/multiple-flavors.webp" alt="" />
                     </div>
                 </div>
             </div>
@@ -808,7 +826,7 @@
 
         <!-- clients section starts here -->
         <div class="clients-wrapper">
-            
+
             <div class="clients-image"><img src="/collagenassets/images/protein1.png" alt="client image"></div>
             <div class="clients-image"><img src="/collagenassets/images/protein2.png" alt="client image"></div>
             <div class="clients-image"><img src="/collagenassets/images/protein3.png" alt="client image"></div>
@@ -843,7 +861,7 @@
         </div>
     </div>
     <!-- reviews section endss here -->
-        
+
     </div>
     <!-- content ends -->
 
