@@ -232,7 +232,7 @@
             <p>Fortified with Biotin, Vitamin C, & more</p>
             <img class="girl-image" src="/collagenassets/images/collagen_desktop-mobile.png" alt="banner bg">
             <div class="buy-now">
-                <a href="javascript:void(0)">buy now</a>
+                <a href="#pkg_sec">buy now</a>
                 <p>Youthful hair, skin
                     and nails with just 1 tasty
                     scoop a day</p>
@@ -401,7 +401,7 @@
                             <p>Iron</p>
                         </li>
                     </ul>
-                    <a href="javascript:void(0)">buy now</a>
+                    <a href="#pkg_sec">buy now</a>
                 </div>
             </div>
         </div>
@@ -597,7 +597,7 @@
                             SAFE</h5>
                     </li>
                 </ul>
-                <a href="javascript:void(0)">buy now</a>
+                <a href="#pkg_sec">buy now</a>
             </div>
         </div>
 
@@ -624,7 +624,7 @@
                 <h4>60 Day Money Back Guarantee</h4>
                 <p class="money-back">Thats right if you don’t like it send<br>
                     it back for a full refund</p>
-                <a href="#">buy now</a>
+                <a href="#pkg_sec">buy now</a>
             </div>
         </div>
         <!-- pregnancy-safe section ends here -->
