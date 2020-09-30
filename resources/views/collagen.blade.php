@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/collagenassets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="/collagenassets/css/style.css">
     <title>The Obvious Choice</title>
 
@@ -637,16 +638,16 @@
             <!----Packages Section Start-->
 
     <section id="pkg_sec" class="package_section">
-        <div class="container">
+        <div class="container-fluid">
             <div class="packages_box">
                 <div class="package">
                     <h4>Obvi Super Collagen Protein</h4>
-                    <span>1 Bottle + Free Recipe Book Included</span>
-                    <img src="/collagenassets/images/fruity_front-min_740x.webp" alt="" />
+                    <span>1 Bottle <br> + Free Recipe Book Included</span>
+                    <img src="/collagenassets/images/pumpkin_front-min_2048x.png" alt="" />
                     <div class="package_detail">
                         <div class="package_price">
                             <span class="new-price">$39.99<p class="old-price">$44.99</p></span>
-                            <span>+ Free US Shipping</span>
+                            <span class="free-shipping">+ Free US Shipping</span>
                             <div class="reviews">
                                 <span>
                                     <p class="rating-star fas fa-star"></p>
@@ -662,12 +663,12 @@
                             <div class="select_flavors">
                                 <h3>Flavor</h3>
                                 <select class="mdb-select md-form" id="select-protein-1">
-                                    <option value="31560275132465:1">Fruity Cereal</option>
-                                    <option value="31560276508721:1">Cocoa Cereal</option>
-                                    <option value="32014563835953:1">Cinna Cereal</option>
-                                    <option value="32014571077681:1">Frosted Cereal</option>
-                                    <option value="32014571077681:1">Honey'Os Cereal</option>
-                                    <option value="32014571077681:1">Pumpkin Spice Latte</option>
+                                    <option value="30287994290225:1">Fruity Cereal</option>
+                                    <option value="30287993897009:1">Cocoa Cereal</option>
+                                    <option value="30287992258609:1">Cinna Cereal</option>
+                                    <option value="30943226789937:1">Frosted Cereal</option>
+                                    <option value="31450115342385:1">Honey'Os Cereal</option>
+                                    <option value="32317254205489:1">Pumpkin Spice Latte</option>
                                 </select>
                             </div>
                         </div>
@@ -680,13 +681,13 @@
                 </div>
                 <div class="package">
                     <h4>Beautiful Burn Bundle</h4>
-                    <span>Best of Both Worlds! + Free Recipe Book Included</span>
+                    <span>Best of Both Worlds! <br> + Free Recipe Book Included</span>
                     <img src="/collagenassets/images/burn_bundle.png" alt="" />
                     <div class="package_detail">
                         <div class="package_price">
                             <span class="new-price">$69.99<p class="old-price">$84.99</p></span>
-                            <span>+ Free US Shipping</span>
-                            <span>(Save $15)</span>
+                            <span class="free-shipping">+ Free US Shipping</span>
+                            <span class="save">(Save $15)</span>
                             <div class="reviews">
                                 <span>
                                     <p class="rating-star fas fa-star"></p>
@@ -702,17 +703,17 @@
                             <div class="select_flavors">
                                 <h3>Select Super Collagen Flavor</h3>
                                 <select class="mdb-select md-form" id="flavor-1">
-                                    <option value="31560275132465:1">Fruity Cereal</option>
-                                    <option value="31560276508721:1">Cocoa Cereal</option>
-                                    <option value="32014563835953:1">Cinna Cereal</option>
-                                    <option value="32014571077681:1">Frosted Cereal</option>
-                                    <option value="32014571077681:1">Honey'Os Cereal</option>
+                                    <option value="30287994290225:1">Fruity Cereal</option>
+                                    <option value="30287993897009:1">Cocoa Cereal</option>
+                                    <option value="30287992258609:1">Cinna Cereal</option>
+                                    <option value="30943226789937:1">Frosted Cereal</option>
+                                    <option value="31450115342385:1">Honey'Os Cereal</option>
                                 </select>
                             </div>
                             <div class="select_flavors">
                                 <h3>Beauty & Weight-loss in 1</h3>
                                 <select class="mdb-select md-form" id="flavor-2">
-                                    <option value="31560275132465:1">Collagenic™ Burn</option>
+                                    <option value="32376605278257:1">Collagenic™ Burn</option>
                                 </select>
                             </div>
                         </div>
@@ -725,13 +726,13 @@
                 </div>
                 <div class="package">
                     <h4>Healthy & Fit Bundle</h4>
-                    <span>Get Fit. Get Beautified. Get Immune. + Free Recipe Book Included</span>
+                    <span>Get Fit. Get Beautified. Get Immune. <br> + Free Recipe Book Included</span>
                     <img src="/collagenassets/images/healthy_fit.png" alt="" />
                     <div class="package_detail">
                         <div class="package_price">
                             <span class="new-price">$99.99<p class="old-price">$124.99</p></span>
-                            <span>+ Free US Shipping Today</span>
-                            <span>(Save $25)</span>
+                            <span class="free-shipping">+ Free US Shipping Today</span>
+                            <span class="save">(Save $25)</span>
                             <div class="reviews">
                                 <span>
                                     <p class="rating-star fas fa-star"></p>
@@ -756,14 +757,14 @@
                             </div>
                             <div class="select_flavors">
                                 <h3>Beauty & Weight-loss in 1</h3>
-                                <select class="mdb-select md-form" id="kidsprotein-flavor">
-                                    <option value="31560275132465:1">Collagenic™ Burn</option>
+                                <select class="mdb-select md-form" id="beauty-flavor">
+                                    <option value="32376605278257:1">Collagenic™ Burn</option>
                                 </select>
                             </div>
                             <div class="select_flavors">
                                 <h3>Immunity Defense</h3>
                                 <select class="mdb-select md-form" id="immunity-defense">
-                                    <option value="31560275132465:1">Superfood Pinks</option>
+                                    <option value="32085995028529:1">Superfood Pinks</option>
                                 </select>
                             </div>
                         </div>

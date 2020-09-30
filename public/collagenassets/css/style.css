@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body,
@@ -107,7 +108,15 @@ button:focus {
 /* Container */
 .container {
     max-width: 1397px;
+    width: 100%;
     margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Container End */
@@ -937,6 +946,11 @@ ul.services li h5 {
 
 /* Packages section css starts */
 .package_section {
+    background-color: rgba(252, 228, 236, 1);
+    font-family: 'ITC Avant Garde Pro BK';
+}
+
+.package_section {
     padding: 50px 0px 100px 0px;
 }
 
@@ -955,7 +969,7 @@ ul.services li h5 {
     text-transform: uppercase;
     line-height: 1.6em;
     margin-bottom: 10px;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .package_section .top-heading h3 {
@@ -964,7 +978,7 @@ ul.services li h5 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1em;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .package_section .top-heading span {
@@ -973,7 +987,7 @@ ul.services li h5 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.6em;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .packages_box {
@@ -990,7 +1004,7 @@ ul.services li h5 {
     box-shadow: -1px 0px 20px 0px rgba(246, 72, 153, 0.1);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 35px 15px 20px 15px;
-    background-color: #DEFDFF;
+    background-color: #fff;
     text-align: center;
     transform: scale(1);
     transition: 0.3s all ease-in-out;
@@ -999,45 +1013,37 @@ ul.services li h5 {
 }
 
 .packages_box .package h4 {
-    color: #F64899;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
+    color: #611241;
+    font-size: 24px;
+    font-weight: 700;
     line-height: 1.6em;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .packages_box .package span {
-    color: #16555E;
-    font-size: 13px;
+    color: #f64899;
+    font-size: 18px;
     font-weight: 300;
-    text-transform: uppercase;
     line-height: 1.6em;
     letter-spacing: 0.5px;
     display: block;
-    margin-bottom: 25px;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .packages_box .package img {
     width: 100%;
-    margin-bottom: 25px;
 }
 
-.packages_box .package:hover {
-    transform: scale(1.05);
-    transition: 0.3s all ease-in-out;
-    border: 2px solid;
-    border-color: #26CEEB;
+.packages_box .package>img {
+    padding: 0 65px;
 }
 
 /******** Package Detail Css ******/
 
 .package .package_detail {
     background: #fff;
-    padding: 20px;
+    padding: 0 20px;
     width: 100%;
-    margin-bottom: 25px;
 }
 
 .packages_box .package .package_detail .new-price {
@@ -1045,9 +1051,9 @@ ul.services li h5 {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    color: #165958;
+    color: rgba(97, 18, 65, 1);
     margin-bottom: 0;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .package .package_detail .new-price .old-price {
@@ -1056,21 +1062,21 @@ ul.services li h5 {
     text-decoration: line-through;
     margin-bottom: 0;
     margin-left: 5px;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .packages_box .package .package_price span {
-    font-size: 18px;
-    color: #26cad2;
+    font-size: 14px;
+    color: #26ceeb;
     margin-bottom: 0;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .packages_box .package .package_detail a.reviews {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .packages_box .package .package_detail a.reviews span {
@@ -1088,24 +1094,38 @@ ul.services li h5 {
     color: #26ceeb;
 }
 
+.package_section .free-shipping {
+    color: #f64899 !important;
+}
+
+.package_section .save {
+    color: rgba(97, 18, 65, 1) !important;
+    padding: 5px 0;
+}
+
 .packages_box .package .package_detail a.reviews span .rating-star::before {
     content: "\f005";
     font-family: "Font Awesome 5 Free";
 }
 
+.packages_box .package .package_detail a {
+    text-decoration: none;
+}
+
 .packages_box .package .package_detail a.reviews p {
     font-size: 14px;
     font-weight: 300;
-    color: #f64899;
+    color: rgba(97, 18, 65, 1);
+    margin-bottom: 15px;
 }
 
 .packages_box .package .package_detail .select_flavors h3 {
-    color: #0f5455;
+    color: rgba(97, 18, 65, 1);
     font-style: normal;
     font-size: 18px;
     text-align: center;
     margin-bottom: 10px;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .packages_box .package .package_detail .select_flavors select {
@@ -1127,14 +1147,15 @@ ul.services li h5 {
 
 .packages_box .package .section-footer p {
     line-height: 22px;
-    color: #16555E;
+    color: rgba(97, 18, 65, 1);
     text-align: left;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 .packages_box .package .section-footer span p {
     text-align: center;
-    font-family: 'Avant Garde Pro Md';
+    font-family: 'ITC Avant Garde Pro BK';
+    font-size: 14px;
 }
 
 .package .package_detail .reviews span .rating-star {
@@ -1145,6 +1166,19 @@ ul.services li h5 {
     width: 100%;
     max-width: fit-content;
     margin: 0 auto;
+}
+
+.package_section .primery_btn {
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 14px 50px 8px;
+    border-radius: 2px;
+    background-color: rgba(101, 226, 102, 1);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'ITC Avant Garde Pro BK';
 }
 
 /* Packages section css ends */
@@ -2053,6 +2087,16 @@ ul.services li h5 {
     .bodies-wrap::before {
         left: -8%;
     }
+
+    .packages_box {
+        flex-wrap: wrap;
+    }
+
+    .packages_box .package {
+        max-width: 48%;
+        width: 100%;
+        margin-bottom: 25px;
+    }
 }
 
 @media(max-width:819px) {
@@ -2534,6 +2578,12 @@ ul.services li h5 {
 
     .bodies-wrap .produces-info-wrap .produce-info p:last-child {
         padding-left: 30px;
+    }
+
+    .packages_box .package {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 25px;
     }
 
 }
