@@ -207,7 +207,7 @@
             <h1>The #1 Most Complete
                 Beauty Collagen Formula</h1>
             <p>Fortified with Biotin, Vitamin C, & more</p>
-            <img class="girl-image" src="/collagenassets/images/collagenassets_desktop-mobile.png" alt="banner bg">
+            <img class="girl-image" src="/collagenassets/images/collagen_desktop-mobile.png" alt="banner bg">
             <div class="buy-now">
                 <a href="javascript:void(0)">buy now</a>
                 <p>Youthful hair, skin

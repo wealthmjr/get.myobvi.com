@@ -66,7 +66,7 @@
                     <ul class="nav-bar">
                         <li class="close-menu-btn"><span>Close</span></li>
                         <li>
-                            <a href="/"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Shop <i
+                            <a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Shop <i
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
