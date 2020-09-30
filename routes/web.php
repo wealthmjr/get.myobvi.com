@@ -144,3 +144,7 @@ Route::group(['prefix' => '/api'], function () {
 Route::get('/kids', function () {
     return view('obvikids');
 });
+
+Route::get('/collagen', function () {
+    return view('collagen');
+});

@@ -22,6 +22,16 @@
     <link rel="stylesheet" href="/obvikids/css/mdb.min.css">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="/obvikids/css/style.css">
+
+    <script>
+        jdgm = window.jdgm || {};
+        jdgm.SHOP_DOMAIN = 'my-obvi.myshopify.com';
+        jdgm.PLATFORM = 'shopify';
+        jdgm.PUBLIC_TOKEN = '4LLO_TWAbLKLge-KyefToyBOz8I';
+
+    </script>
+    <script data-cfasync='false' type='text/javascript' async src='https://cdn.judge.me/widget_preloader.js'></script>
+    <script data-cfasync='false' type='text/javascript' async src='https://cdn.judge.me/assets/installed.js'></script>
 </head>
 
 <body>
@@ -1356,11 +1366,22 @@
     <!---- Customer Reviews Section  Start -->
 
     <section class="customer_reviews">
-        <div class="container">
+        {{-- <div class="container">
             <div class="reviews_content">
                 <img src="/obvikids/images/other_images/Screenshot_4-768x408.png" alt="" />
             </div>
+        </div> --}}
+
+        <!-- reviews section starts here -->
+        <div class="reviews-wrapper">
+            <div class="container">
+                <div class="inner">
+                    <h2>Customer Reviews</h2>
+                    <div class="jdgm-widget jdgm-all-reviews-widget">  <div class="jdgm-all-reviews__body"></div> </div>
+                </div>
+            </div>
         </div>
+        <!-- reviews section endss here -->
     </section>
 
 
