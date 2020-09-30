@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="/collagenassets/css/style.css">
     <title>The Obvious Choice</title>
 
+    <script>
+        jdgm = window.jdgm || {};
+        jdgm.SHOP_DOMAIN = 'my-obvi.myshopify.com';
+        jdgm.PLATFORM = 'shopify';
+        jdgm.PUBLIC_TOKEN = '4LLO_TWAbLKLge-KyefToyBOz8I';
+
+    </script>
+    <script data-cfasync='false' type='text/javascript' async src='https://cdn.judge.me/widget_preloader.js'></script>
+    <script data-cfasync='false' type='text/javascript' async src='https://cdn.judge.me/assets/installed.js'></script>
+
     {{-- GA tracking code starts --}}
     <script>
         var _gaq = _gaq || [];
@@ -715,11 +725,11 @@
                             <div class="select_flavors">
                                 <h3>Select Super Collagen Flavor</h3>
                                 <select class="mdb-select md-form" id="flavor-1">
-                                    <option value="30287994290225:1">Fruity Cereal</option>
-                                    <option value="30287993897009:1">Cocoa Cereal</option>
-                                    <option value="30287992258609:1">Cinna Cereal</option>
-                                    <option value="30943226789937:1">Frosted Cereal</option>
-                                    <option value="31450115342385:1">Honey'Os Cereal</option>
+                                    <option value="32013958283313:1">Fruity Cereal</option>
+                                    <option value="32013958152241:1">Cocoa Cereal</option>
+                                    <option value="32013958185009:1">Cinna Cereal</option>
+                                    <option value="32013958217777:1">Frosted Cereal</option>
+                                    <option value="32013958250545:1">Honey'Os Cereal</option>
                                 </select>
                             </div>
                             <div class="select_flavors">
@@ -760,11 +770,11 @@
                             <div class="select_flavors">
                                 <h3>Select Super Collagen Flavor</h3>
                                 <select class="mdb-select md-form" id="collagen-flavor">
-                                    <option value="30287994290225:1">Fruity Cereal</option>
-                                    <option value="30287993897009:1">Cocoa Cereal</option>
-                                    <option value="30287992258609:1">Cinna Cereal</option>
-                                    <option value="30943226789937:1">Frosted Cereal</option>
-                                    <option value="31450115342385:1">HoneyOs Cereal</option>
+                                    <option value="32290054340657:1">Fruity Cereal</option>
+                                    <option value="32290054406193:1">Cocoa Cereal</option>
+                                    <option value="32290054373425:1">Cinna Cereal</option>
+                                    <option value="32290054438961:1">Frosted Cereal</option>
+                                    <option value="32290054471729:1">HoneyOs Cereal</option>
                                 </select>
                             </div>
                             <div class="select_flavors">
@@ -823,7 +833,16 @@
             </div>
         </div>
         <!-- clients section ends here -->
-        
+       <!-- reviews section starts here -->
+       <div class="reviews-wrapper">
+        <div class="container">
+            <div class="inner">
+                <h2>Customer Reviews</h2>
+                <div class="jdgm-widget jdgm-all-reviews-widget">  <div class="jdgm-all-reviews__body"></div> </div>
+            </div>
+        </div>
+    </div>
+    <!-- reviews section endss here -->
         
     </div>
     <!-- content ends -->

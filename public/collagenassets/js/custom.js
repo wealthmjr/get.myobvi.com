@@ -47,19 +47,20 @@ $(document).ready(function () {
         var cart_url = "https://myobvi.com/cart/";
         var flavor1 = $("#flavor-1").val();
         var flavor2 = $("#flavor-2").val();
+        window.location.href = cart_url + flavor1;
 
-        if (flavor1 !== null && flavor2 !== null) {
-            window.location.href = cart_url + flavor1 + "," + flavor2;
-        } else {
-            if (flavor1 !== null) {
-                // alert("flavor1");
-                window.location.href = cart_url + flavor1;
-            }
-            if (flavor2 !== null) {
-                // alert("flavor2");
-                window.location.href = cart_url + flavor2;
-            }
-        }
+        // if (flavor1 !== null && flavor2 !== null) {
+        //     window.location.href = cart_url + flavor1 + "," + flavor2;
+        // } else {
+        //     if (flavor1 !== null) {
+        //         // alert("flavor1");
+        //         window.location.href = cart_url + flavor1;
+        //     }
+        //     if (flavor2 !== null) {
+        //         // alert("flavor2");
+        //         window.location.href = cart_url + flavor2;
+        //     }
+        // }
 
     });
 
@@ -69,12 +70,12 @@ $(document).ready(function () {
         var flavor1 = $("#collagen-flavor").val();
         var flavor2 = $("#beauty-flavor").val();
         var flavor3 = $("#immunity-defense").val();
+        window.location.href = cart_url + flavor1;
 
-
-        if (flavor1 !== null && flavor2 !== null) {
-            window.location.href = cart_url + flavor1 + "," + flavor2 + "," + flavor3;
-        } else {
-            // alert("select some value!!!");
-        }
+        // if (flavor1 !== null && flavor2 !== null) {
+        //     window.location.href = cart_url + flavor1 + "," + flavor2 + "," + flavor3;
+        // } else {
+        //     // alert("select some value!!!");
+        // }
     });
 });
