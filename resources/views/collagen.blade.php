@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="/collagenassets/css/style.css">
     <title>The Obvious Choice</title>
 
+    {{-- GA tracking code starts --}}
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-139880027-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    {{-- GA tracking code ends --}}
     
 </head>
 
@@ -24,7 +36,7 @@
             <div class="container">
                 <div class="inner">
                     <div class="logo-wrap">
-                        <a href="#" class="logo"><img src="/collagenassets/images/pink-min_95x.png" alt=""></a>
+                        <a href="#" class="logo"><img src="/obvikids/images/pink-min_95x.png" alt=""></a>
                     </div>
                     <button class="nav-toggle-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
                     <ul class="nav-bar">
@@ -34,8 +46,8 @@
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" class="sub-link">
-                                        <img src="/collagenassets/images/menu-1.png" alt="">
+                                    <a href="https://myobvi.com/collections/collagen" class="sub-link">
+                                        <img src="/obvikids/images/menu-1.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Super Collagen Protein</span>
                                             <span class="sub-desp">Multiple Flavors Available</span>
@@ -43,8 +55,8 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
-                                        <img src="/collagenassets/images/menu-2.png" alt="">
+                                    <a href="https://myobvi.com/collections/obvi-kids-complete-proteins" class="sub-link">
+                                        <img src="/obvikids/images/menu-2.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Kid's Complete Protein</span>
                                             <span class="sub-desp">Multiple Flavors Available</span>
@@ -52,8 +64,8 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
-                                        <img src="/collagenassets/images/menu-3.png" alt="">
+                                    <a href="https://myobvi.com/products/obvi-collagenic-fat-burner" class="sub-link">
+                                        <img src="/obvikids/images/menu-3.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Collagenic™ Fat Burner</span>
                                             <span class="sub-desp">World's First Thermogenic Collagen Solution</span>
@@ -61,8 +73,8 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
-                                        <img src="/collagenassets/images/menu-4.png" alt="">
+                                    <a href="https://myobvi.com/products/obvi-vegan-collagen-booster" class="sub-link">
+                                        <img src="/obvikids/images/menu-4.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Vegan Collagen Booster</span>
                                             <span class="sub-desp">World's First Vegan Collagen Solution</span>
@@ -70,8 +82,8 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
-                                        <img src="/collagenassets/images/menu-5.png" alt="">
+                                    <a href="https://myobvi.com/products/superfood-pinks-pink-lemonade" class="sub-link">
+                                        <img src="/obvikids/images/menu-5.png" alt="">
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Obvimmunity Series</span>
                                             <span class="sub-desp">Immunity, The Obvious Way</span>
@@ -85,7 +97,7 @@
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/apps/bundles/bundle/24772" class="sub-link">
                                         <i class="fa fa-cubes" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Build Your Own Bundle</span>
@@ -94,7 +106,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/beauty-burn-bundle" class="sub-link">
                                         <i class="fa fa-fire" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Beauty & Burn Bundle</span>
@@ -103,7 +115,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/mommy-me-protein-bundle" class="sub-link">
                                         <i class="fa fa-heart" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Mommy & Me</span>
@@ -112,7 +124,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/collagen-lovers-protein-bundle" class="sub-link">
                                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Collagen Lovers</span>
@@ -121,7 +133,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/products/obvi-kids-complete-protein-lovers-bundle" class="sub-link">
                                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Kid's Lovers</span>
@@ -130,7 +142,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/collections/bundle-save-with-obvi" class="sub-link">
                                         <i class="fa fa-cubes" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Shop All Bundles</span>
@@ -144,7 +156,7 @@
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/pages/international-inquiries" class="sub-link">
                                         <i class="fa fa-plane" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">International</span>
@@ -152,7 +164,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/pages/wholesale-inquiries" class="sub-link">
                                         <i class="fa fa-truck" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Domestic</span>
@@ -161,14 +173,14 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#"><i class="fa fa-heartbeat" aria-hidden="true"></i> Blog/Recipes</a></li>
-                        <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Obvi Gear</a></li>
+                        <li><a href="https://myobvi.com/pages/blog"><i class="fa fa-heartbeat" aria-hidden="true"></i> Blog/Recipes</a></li>
+                        <li><a href="https://myobvi.com/collections/apparel-accessories"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Obvi Gear</a></li>
                         <li class="drop-down">
                             <a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Help Center <i
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/pages/contact-us" class="sub-link">
                                         <i class="fa fa-inbox" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Contact Us</span>
@@ -176,7 +188,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://myobvi.com/apps/help-center" class="sub-link">
                                         <i class="fa fa-question-circle-o" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">FAQ</span>
@@ -184,7 +196,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="sub-link">
+                                    <a href="https://affiliates.myobvi.com/" class="sub-link">
                                         <i class="fa fa-group" aria-hidden="true"></i>
                                         <div class="sub-text-wrap">
                                             <span class="sub-text">Affiliate Program</span>

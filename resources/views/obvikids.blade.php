@@ -32,6 +32,20 @@
     </script>
     <script data-cfasync='false' type='text/javascript' async src='https://cdn.judge.me/widget_preloader.js'></script>
     <script data-cfasync='false' type='text/javascript' async src='https://cdn.judge.me/assets/installed.js'></script>
+
+
+    {{-- GA tracking code starts --}}
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-139880027-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    {{-- GA tracking code ends --}}
 </head>
 
 <body>

@@ -66,6 +66,7 @@ a {
     outline: none;
     transition: 0.3s all ease;
     display: inline-block;
+    text-decoration: none;
 }
 
 a:hover,
