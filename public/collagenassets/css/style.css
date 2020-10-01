@@ -513,6 +513,7 @@ button:focus {
     font-family: 'ITC Avant Garde Pro BK';
     font-size: 30px;
     line-height: 36px;
+    font-weight: bold;
     color: #601140;
     width: 50%;
 }
