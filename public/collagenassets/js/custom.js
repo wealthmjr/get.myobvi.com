@@ -78,4 +78,10 @@ $(document).ready(function () {
         //     // alert("select some value!!!");
         // }
     });
+
+    //content_type: product_group
+    // content_ids: [2162729025585]
+    // value: 39.99
+    // num_items: 1
+    // currency: USD
 });
