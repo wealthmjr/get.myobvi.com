@@ -771,7 +771,7 @@
                                                                                                                         </div>
                                                                                                                         <div class="section-footer">
                                                                                                                             <a href="#" class="primery_btn" id="buy-protein-2">BUY NOW</a>
-                                                                                                                            <span>One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
+                                                                                                                            <span style="color: #f64899;font-size: 18px;font-weight: 300;line-height: 1.6em;letter-spacing: 0.5px;">One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
                                                                                                                             <img src="/collagenassets/images/multiple-flavors.webp" alt="" />
                                                                                                                         </div>
                                                                                                                     </div>
