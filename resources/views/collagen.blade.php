@@ -782,7 +782,7 @@
                                                                                                                 <span>Get Fit. Get Beautified. Get Immune. <br> + Free Recipe Book Included</span>
                                                                                                                 <img src="/collagenassets/images/healthy_fit.png" alt="" />
                                                                                                                 <div class="package_detail">
-                                                                                                                    <div class="package_price">
+                                                                                                                    <div class="">
                                                                                                                         <span class="new-price">$99.99<p class="old-price">$124.99</p></span>
                                                                                                                         <span class="free-shipping">+ Free US Shipping Today</span>
                                                                                                                         <span class="save">(Save $25)</span>
