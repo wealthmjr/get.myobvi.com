@@ -698,7 +698,7 @@
                                                                                                                 <span>1 Bottle <br> + Free Recipe Book Included</span>
                                                                                                                 <img src="/collagenassets/images/pumpkin_front-min_2048x.png" alt="" />
                                                                                                                 <div class="package_detail">
-                                                                                                                    <div class="package_price">
+                                                                                                                    <div class="">
                                                                                                                         <span class="new-price">$39.99<p class="old-price">$44.99</p></span>
                                                                                                                         <span class="free-shipping">+ Free US Shipping</span>
                                                                                                                         <div class="reviews">
@@ -782,7 +782,7 @@
                                                                                                                 <span>Get Fit. Get Beautified. Get Immune. <br> + Free Recipe Book Included</span>
                                                                                                                 <img src="/collagenassets/images/healthy_fit.png" alt="" />
                                                                                                                 <div class="package_detail">
-                                                                                                                    <div class="">
+                                                                                                                    <div class="package_price">
                                                                                                                         <span class="new-price">$99.99<p class="old-price">$124.99</p></span>
                                                                                                                         <span class="free-shipping">+ Free US Shipping Today</span>
                                                                                                                         <span class="save">(Save $25)</span>
