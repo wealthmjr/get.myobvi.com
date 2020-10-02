@@ -353,7 +353,7 @@
                     </div>
                 </div>
                 <div class="content-image">
-                    <img src="/obvikids/images/other_images/asset_13.png" alt="" />
+                    <img style="height:100%" src="/obvikids/images/other_images/asset_13.png" alt="" />
                 </div>
             </div>
         </div>
