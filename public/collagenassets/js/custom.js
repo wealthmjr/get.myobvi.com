@@ -37,7 +37,7 @@ $(document).ready(function () {
     
         if ( $(this).val() == "32439766351921:1" || image_name == "product_pinkvelvet.png" ) {
             console.log("PINK VELVET");
-            $("#first_product_price").html("$49.99 <p class='old-price'>$64.99</p>");
+            $("#first_product_price").html("$49.99");
         } else {
             $("#first_product_price").html("$39.99 <p class='old-price'>$44.99</p>");
         }
