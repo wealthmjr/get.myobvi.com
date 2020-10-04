@@ -34,6 +34,14 @@ $(document).ready(function () {
     
     $('#select-protein-1').on('change', function() {
         var image_name = $(this).find(':selected').data('img');
+    
+        if ( $(this).val() == "32439766351921:1" || image_name == "product_pinkvelvet.png" ) {
+            console.log("PINK VELVET");
+            $("#first_product_price").html("$49.99 <p class='old-price'>$64.99</p>");
+        } else {
+            $("#first_product_price").html("$39.99 <p class='old-price'>$44.99</p>");
+        }
+        
         var first_product_image = $("#first_product_image");
         
         first_product_image.attr("src","/collagenassets/images/" + image_name);

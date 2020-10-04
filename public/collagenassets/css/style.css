@@ -956,9 +956,14 @@ ul.services li h5 {
     font-family: 'ITC Avant Garde Pro BK';
 }
 
+
+
+
 .package_section {
     padding: 50px 0px 100px 0px;
 }
+
+
 
 .package_section .top-heading {
     display: flex;
@@ -1307,6 +1312,17 @@ ul.services li h5 {
 
 
 }
+
+@media screen and (max-width: 500px) {
+    .package_section {
+        padding: 50px 0px 80px 0px;
+    }
+    
+    .faq_section .top-heading h3{
+        font-size: 30px!important;
+    }
+}
+
 
 .faq {
     padding: 15px 20px;

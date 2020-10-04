@@ -700,7 +700,7 @@
                                                                                                                 <img id="first_product_image" src="/collagenassets/images/product_fruity.png" alt="" />
                                                                                                                 <div class="package_detail">
                                                                                                                     <div class="package_price">
-                                                                                                                        <span class="new-price">$39.99<p class="old-price">$44.99</p></span>
+                                                                                                                        <span id="first_product_price" class="new-price">$39.99<p class="old-price">$44.99</p></span>
                                                                                                                         <span class="free-shipping">+ Free US Shipping</span>
                                                                                                                         <div class="reviews">
                                                                                                                             <span>
