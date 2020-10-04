@@ -53,12 +53,7 @@ $(document).ready(function () {
         var first_product_image = $("#second_product_image");
         first_product_image.attr("src","/collagenassets/images/" + image_name);
     });
-    
-    
-    
-    
-    
-    
+        
     $("#buy-protein-1").click(function (e) {
         e.preventDefault();
         var cart_url = "https://myobvi.com/cart/";

@@ -890,7 +890,7 @@
                 <div class="package">
                     <h4>OBVI KID'S COMPLETE PROTEIN</h4>
                     <span>1 BOTTLE + FREE RECIPE BOOK INCLUDED</span>
-                    <img src="/obvikids/images/pricing_tables/asset_44.png" alt="" />
+                    <img id="first_product_image" src="/obvikids/images/pricing_tables/asset_44.png" alt="" />
                     <!-- <img src="/obvikids/images/pricing_tables/Screenshot_8.jpg" alt="" /> -->
                     <div class="package_detail">
                         <div class="package_price">
@@ -911,11 +911,10 @@
                             <div class="select_flavors">
                                 <h3>Select Kid's Protein Flavor</h3>
                                 <select class="mdb-select md-form" id="select-protein-1">
-                                    <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="31560275132465:1">Kid's Fruity Cereal</option>
-                                    <option value="31560276508721:1">Kid's Cocoa Cereal</option>
-                                    <option value="32014563835953:1">Kid's Cookie Cereal</option>
-                                    <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
+                                    <option data-img="kids_fruity.png"  value="31560275132465:1">Kid's Fruity Cereal</option>
+                                    <option data-img="kids_cocoa.png"  value="31560276508721:1">Kid's Cocoa Cereal</option>
+                                    <option data-img="kids_cookie.png"  value="32014563835953:1">Kid's Cookie Cereal</option>
+                                    <option data-img="kids_marshmellow.png"  value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                         </div>
@@ -933,7 +932,7 @@
                     <!-- <img src="/obvikids/images/pricing_tables/Screenshot_7.png" alt="" /> -->
                     <div class="package_detail">
                         <div class="package_price">
-                            <span class="new-price">$34.99 USD<p class="old-price">$39.99 USD</p></span>
+                            <span class="new-price">$64.99 USD<p class="old-price">$79.99 USD</p></span>
                             <span>+ Free US Shipping Today</span>
                             <div class="reviews">
                                 <span>
@@ -950,21 +949,19 @@
                             <div class="select_flavors">
                                 <h3>Select First Flavor</h3>
                                 <select class="mdb-select md-form" id="flavor-1">
-                                    <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="31560275132465:1">Kid's Fruity Cereal</option>
-                                    <option value="31560276508721:1">Kid's Cocoa Cereal</option>
-                                    <option value="32014563835953:1">Kid's Cookie Cereal</option>
-                                    <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
+                                    <option data-img="fruity" value="31560275132465:1">Kid's Fruity Cereal</option>
+                                    <option data-img="cocoa" value="31560276508721:1">Kid's Cocoa Cereal</option>
+                                    <option  data-img="cookie" value="32014563835953:1">Kid's Cookie Cereal</option>
+                                    <option  data-img="marshmellow" value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                             <div class="select_flavors">
                                 <h3>Select Second Flavor</h3>
                                 <select class="mdb-select md-form" id="flavor-2">
-                                    <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="31560275132465:1">Kid's Fruity Cereal</option>
-                                    <option value="31560276508721:1">Kid's Cocoa Cereal</option>
-                                    <option value="32014563835953:1">Kid's Cookie Cereal</option>
-                                    <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
+                                    <option data-img="cocoa" value="31560276508721:1">Kid's Cocoa Cereal</option>
+                                    <option data-img="fruity" value="31560275132465:1">Kid's Fruity Cereal</option>
+                                    <option data-img="cookie" value="32014563835953:1">Kid's Cookie Cereal</option>
+                                    <option data-img="marshmellow" value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                         </div>
@@ -978,11 +975,12 @@
                 <div class="package">
                     <h4>MOMMY & ME BUNDLE</h4>
                     <span>COLLAGEN FOR YOU! PROTEIN FOR THEM! + FREE RECIPE BOOK INCLUDED</span>
-                    <img src="/obvikids/images/pricing_tables/asset_48.png" alt="" />
+                    <img id="third_product_image" src="/obvikids/images/pricing_tables/asset_48.png" alt="" />
                     <!-- <img src="/obvikids/images/pricing_tables/Screenshot_8.png" alt="" /> -->
                     <div class="package_detail">
                         <div class="package_price">
-                            <span class="new-price">$34.99 USD<p class="old-price">$39.99 USD</p></span>
+                             
+                            <span class="new-price">69.99 USD<p class="old-price">$84.99 USD</p></span>
                             <span>+ Free US Shipping Today</span>
                             <div class="reviews">
                                 <span>
@@ -999,22 +997,22 @@
                             <div class="select_flavors">
                                 <h3>Select Super Collagen Flavor</h3>
                                 <select class="mdb-select md-form" id="collagen-flavor">
-                                    <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="30287994290225:1">Fruity Cereal</option>
-                                    <option value="30287992258609:1">Cinna Cereal</option>
-                                    <option value="30287993897009:1">Cocoa Cereal</option>
-                                    <option value="30943226789937:1">Frosted Cereal</option>
-                                    <option value="31450115342385:1">HoneyOs Cereal</option>
+                                
+                                    <option data-img="fruity" value="30287994290225:1">Fruity Cereal</option>
+                                    <option data-img="cinnamon" value="30287992258609:1">Cinna Cereal</option>
+                                    <option data-img="cocoa" value="30287993897009:1">Cocoa Cereal</option>
+                                    <option data-img="frosted" value="30943226789937:1">Frosted Cereal</option>
+                                    <option data-img="honey" value="31450115342385:1">HoneyOs Cereal</option>
                                 </select>
                             </div>
                             <div class="select_flavors">
                                 <h3>Select Kid's Protein Flavor</h3>
                                 <select class="mdb-select md-form" id="kidsprotein-flavor">
-                                    <option value="" disabled selected>Choose your Flavor</option>
-                                    <option value="31560275132465:1">Kid's Fruity Cereal</option>
-                                    <option value="31560276508721:1">Kid's Cocoa Cereal</option>
-                                    <option value="2014563835953:1">Kid's Cookie Cereal</option>
-                                    <option value="32014571077681:1">Kid's Marshmallow Cereal</option>
+                                    
+                                    <option data-img="fruity" value="31560275132465:1">Kid's Fruity Cereal</option>
+                                    <option data-img="cocoa" value="31560276508721:1">Kid's Cocoa Cereal</option>
+                                    <option data-img="cookie" value="2014563835953:1">Kid's Cookie Cereal</option>
+                                    <option data-img="marshmellow" value="32014571077681:1">Kid's Marshmallow Cereal</option>
                                 </select>
                             </div>
                         </div>
