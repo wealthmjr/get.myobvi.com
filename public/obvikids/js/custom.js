@@ -138,4 +138,55 @@ $(document).ready(function () {
     
     
     
+    // LIGHTBOX VIDEO 
+    
+    window.document.onkeydown = function(e) {
+    if (!e) {
+    e = event;
+    }
+    if (e.keyCode == 27) {
+    lightbox_close();
+    }
+    }
+    
+    console.log("loading")
+
+
+    $('#video_button').click(function () {
+        var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+        window.scrollTo(0, 0);
+        document.getElementById('light').style.display = 'block';
+        document.getElementById('fade').style.display = 'block';
+
+        var videoURL = $('iframe').prop('src');
+        videoURL += "?autoplay=1";
+        $('iframe').prop('src',videoURL); 
+    });
+    
+    
+    $('#fade').click(function () {
+        var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+        document.getElementById('light').style.display = 'none';
+        document.getElementById('fade').style.display = 'none';
+        var videoURL = $('iframe').prop('src');
+        videoURL = videoURL.replace("?autoplay=1", "");
+        $('iframe').prop('src','');
+        $('iframe').prop('src',videoURL);
+    });
+    
+    $('#boxclose').click(function () {
+        var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+        document.getElementById('light').style.display = 'none';
+        document.getElementById('fade').style.display = 'none';
+        var videoURL = $('iframe').prop('src');
+        videoURL = videoURL.replace("?autoplay=1", "");
+        $('iframe').prop('src','');
+        $('iframe').prop('src',videoURL);
+    });
+
+
+
+
+
+    
 });

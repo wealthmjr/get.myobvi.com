@@ -889,7 +889,7 @@
                                                                             <div class="section-footer">
                                                                                 <span>STILL NOT SURE IF YOUR KIDS WILL ENJOY THESE FLAVOR? PERHAPS THESE PICKY EATERS WILL CONVINCE
                                                                                     YOU</span>
-                                                                                    <a href="#" class="primery_btn">WATCH VIDEO <i class="fas fa-video"></i></a>
+                                                                                    <button id="video_button" class="primery_btn">WATCH VIDEO <i class="fas fa-video"></i></button>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="border-bottom-image">
@@ -907,8 +907,8 @@
                                                                             <div class="container">
                                                                                 <div class="top-heading">
                                                                                     <span>READY TO TRY IT OUT YOURSELF?</span>
-                                                                                    <h3>GET 50% OFF ALL PACKAGES</h3>
-                                                                                    <span>MAKE YOUR PICK</span>
+                                                                                    <h3>MAKE YOUR PICK</h3>
+                                                                                    {{-- <span>MAKE YOUR PICK</span> --}}
                                                                                 </div>
                                                                                 <div class="packages_box">
                                                                                     <div class="package">
@@ -1364,33 +1364,50 @@
             
         </div>
         
-        <!-- Accordion card -->
-        <div class="card">
-            
-            <!-- Card header -->
-            <div class="card-header" role="tab" id="headingThree39">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
-                href="#collapseThree39" aria-expanded="false" aria-controls="collapseThree39">
-                <h5 class="mb-0">
-                    Is your Kids Complete Protein Dairy/Lactose Free? <i
-                    class="fas fa-plus rotate-icon"></i>
-                </h5>
-            </a>
+        
+        {{-- <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ONQA9wh7LVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
-        <!-- Card body -->
-        <div id="collapseThree39" class="collapse" role="tabpanel" aria-labelledby="headingThree39"
-        data-parent="#accordionEx1">
-        <div class="card-body">
-            Our Kid’s protein is NOT lactose free as it contains whey protein concentrate which
-            contains lactose.
-            Still searching? If your question isn't answered here, email us at <a
-            href="mailto:hello@myobvi.com" class="linkout">hello@myobvi.com</a> with any
-            questions.
+        <div id="fade" onClick="lightbox_close();"></div>
+        
+        <div>
+            <a href="#" onclick="lightbox_open();">Watch video</a>
         </div>
+        
+        <div class="test">test</div>
+        <div class="test2">test2</di> --}}
+            
+            
+            
+            <!-- Accordion card -->
+            <div class="card">
+                
+                <!-- Card header -->
+                <div class="card-header" role="tab" id="headingThree39">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                    href="#collapseThree39" aria-expanded="false" aria-controls="collapseThree39">
+                    <h5 class="mb-0">
+                        Is your Kids Complete Protein Dairy/Lactose Free? <i
+                        class="fas fa-plus rotate-icon"></i>
+                    </h5>
+                </a>
+            </div>
+            
+            <!-- Card body -->
+            <div id="collapseThree39" class="collapse" role="tabpanel" aria-labelledby="headingThree39"
+            data-parent="#accordionEx1">
+            <div class="card-body">
+                Our Kid’s protein is NOT lactose free as it contains whey protein concentrate which
+                contains lactose.
+                Still searching? If your question isn't answered here, email us at <a
+                href="mailto:hello@myobvi.com" class="linkout">hello@myobvi.com</a> with any
+                questions.
+            </div>
+        </div>
+        
     </div>
-    
-</div>
 </div>
 <!-- Accordion wrapper -->
 </div>
@@ -1451,6 +1468,78 @@
 <script type="text/javascript" src="/obvikids/js/mdb.min.js"></script>
 <!-- Your custom scripts (optional) -->
 <script type="text/javascript" src="/obvikids/js/popper.min.js"></script>
+
+
+ <div id="light">
+    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ONQA9wh7LVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div id="fade" onClick="lightbox_close();"></div>
+
+
+
+{{-- LIGHTBOX CUSTOM CSS --}}
+<style media="screen">
+#fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+#light {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 600px;
+    max-height: 360px;
+    margin-left: -300px;
+    margin-top: -180px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    z-index: 1002;
+    overflow: visible;
+}
+
+#boxclose {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+    background: #222222;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 0.9;
+}
+
+.boxclose:before {
+    content: "×";
+}
+
+#fade:hover ~ #boxclose {
+    display:none;
+}
+
+.test:hover ~ .test2 {
+    display: none;
+}
+</style>
 
 </body>
 
