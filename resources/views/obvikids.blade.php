@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Obvi Kids | Wealth M.jr</title>
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/obvikids/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
-    
-    
-    
+
+
+
     ">
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
@@ -22,18 +22,36 @@
     <link rel="stylesheet" href="/obvikids/css/mdb.min.css">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="/obvikids/css/style.css">
-    
+
     <script>
     jdgm = window.jdgm || {};
     jdgm.SHOP_DOMAIN = 'my-obvi.myshopify.com';
     jdgm.PLATFORM = 'shopify';
     jdgm.PUBLIC_TOKEN = '4LLO_TWAbLKLge-KyefToyBOz8I';
-    
+
     </script>
     <script data-cfasync='false' type='text/javascript' async src='https://cdn.judge.me/widget_preloader.js'></script>
     <script data-cfasync='false' type='text/javascript' async src='https://cdn.judge.me/assets/installed.js'></script>
-    
-    
+
+    <!-- begin Convert Experiences code-->
+        <script
+          type="text/javascript"
+          src="https://cdn-3.convertexperiments.com/js/10034551-10032757.js"
+        ></script>
+    <!-- end Convert Experiences code -->
+    <script type="text/javascript">
+      window._mfq = window._mfq || [];
+      (function () {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript";
+        mf.defer = true;
+        mf.src =
+          "//cdn.mouseflow.com/projects/c692c3e2-7201-496a-8338-554beb917458.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+      })();
+    </script>
+
+
     {{-- GA tracking code starts --}}
     <script>
     var _gaq = _gaq || [];
@@ -48,10 +66,10 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
     })();
-    
+
     </script>
     {{-- GA tracking code ends --}}
-    
+
     <!-- Facebook Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
@@ -71,13 +89,13 @@
         </noscript>
         <!-- End Facebook Pixel Code -->
     </head>
-    
+
     <body>
-        
+
         <!-- Start your project here-->
-        
+
         <!----- Header Start -->
-        
+
         <header>
             <div class="header-top">
                 <div class="container">
@@ -272,13 +290,13 @@
                                                 </div>
                                             </div>
                                         </header>
-                                        
+
                                         <!---- Header Ends -->
                                         <!-- overlay -->
                                         <div class="fixed-overlay"></div>
                                         <!-- overlay -->
                                         <!---- Banner Start -->
-                                        
+
                                         <section class="banner_section">
                                             <div class="container">
                                                 <div class="banner_content">
@@ -299,11 +317,11 @@
                                                     </div>
                                                 </div>
                                             </section>
-                                            
+
                                             <!---- Banner Ends -->
-                                            
+
                                             <!---- Feature In Start -->
-                                            
+
                                             <section class="feature-in-block">
                                                 <div class="feature-mobile-menu">
                                                     <img src="/obvikids/images/mobile_images/Untitled-design-1024x252.png" alt="" />
@@ -327,11 +345,11 @@
                                                     <img src="/obvikids/images/section_banners/asset_57.png" alt="" />
                                                 </div>
                                             </section>
-                                            
+
                                             <!---- Feature In End -->
-                                            
+
                                             <!---- We Know Section Start-->
-                                            
+
                                             <section class="we-know-section">
                                                 <div class="container">
                                                     <div class="we-know-content">
@@ -353,11 +371,11 @@
                                                         </div>
                                                     </div>
                                                 </section>
-                                                
+
                                                 <!---- We Know Section End-->
-                                                
+
                                                 <!---- Coming up with a new solution Section Start-->
-                                                
+
                                                 <section class="coming-up-solution">
                                                     <div class="container">
                                                         <div class="solution_content">
@@ -382,11 +400,11 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    
+
                                                     <!---- Coming up with a new solution Section End -->
-                                                    
+
                                                     <!---- Why Choose Section Start-->
-                                                    
+
                                                     <section class="why-choose-section">
                                                         <div class="container">
                                                             <div class="top-heading">
@@ -432,7 +450,7 @@
                                                                             </div>
                                                                         </div>
                                                                     </section>
-                                                                    
+
                                                                     <!---- Why Choose Section Ends-->
                                                                     <section class="customers-thorughts">
                                                                         <div class="melting_wave_border">
@@ -499,9 +517,9 @@
                                                                                     </div>
                                                                                 </section>
                                                                                 <!---- Why Choose Section ends-->
-                                                                                
+
                                                                                 <!---- Micro Nutrient Section Start-->
-                                                                                
+
                                                                                 <section class="micro-nutrient-section">
                                                                                     <div class="container">
                                                                                         <div class="top-heading">
@@ -553,17 +571,17 @@
                                                                                                 <!-- Grid row -->
                                                                                                 <span class="note">CLICK TO SEE WHY THESE MIRCO NUTRIENTS ARE IMPORTANT</span>
                                                                                                 <div class="row accordion-gradient-bcg d-flex justify-content-center">
-                                                                                                    
+
                                                                                                     <!-- Grid column -->
                                                                                                     <div class="col-md-12">
-                                                                                                        
+
                                                                                                         <!--Accordion wrapper-->
                                                                                                         <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist"
                                                                                                         aria-multiselectable="true">
-                                                                                                        
+
                                                                                                         <!-- Accordion card -->
                                                                                                         <div class="card">
-                                                                                                            
+
                                                                                                             <!-- Card header -->
                                                                                                             <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading1">
                                                                                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
@@ -573,7 +591,7 @@
                                                                                                                 </h5>
                                                                                                             </a>
                                                                                                         </div>
-                                                                                                        
+
                                                                                                         <!-- Card body -->
                                                                                                         <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1"
                                                                                                         data-parent="#accordionEx7">
@@ -585,10 +603,10 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <!-- Accordion card -->
-                                                                                                
+
                                                                                                 <!-- Accordion card -->
                                                                                                 <div class="card">
-                                                                                                    
+
                                                                                                     <!-- Card header -->
                                                                                                     <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading2">
                                                                                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
@@ -598,7 +616,7 @@
                                                                                                         </h5>
                                                                                                     </a>
                                                                                                 </div>
-                                                                                                
+
                                                                                                 <!-- Card body -->
                                                                                                 <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2"
                                                                                                 data-parent="#accordionEx7">
@@ -609,10 +627,10 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                             <!-- Accordion card -->
-                                                                                            
+
                                                                                             <!-- Accordion card -->
                                                                                             <div class="card">
-                                                                                                
+
                                                                                                 <!-- Card header -->
                                                                                                 <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading3">
                                                                                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
@@ -622,7 +640,7 @@
                                                                                                     </h5>
                                                                                                 </a>
                                                                                             </div>
-                                                                                            
+
                                                                                             <!-- Card body -->
                                                                                             <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3"
                                                                                             data-parent="#accordionEx7">
@@ -633,10 +651,10 @@
                                                                                             </div>
                                                                                         </div>
                                                                                         <!-- Accordion card -->
-                                                                                        
+
                                                                                         <!-- Accordion card -->
                                                                                         <div class="card">
-                                                                                            
+
                                                                                             <!-- Card header -->
                                                                                             <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading4">
                                                                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
@@ -646,7 +664,7 @@
                                                                                                 </h5>
                                                                                             </a>
                                                                                         </div>
-                                                                                        
+
                                                                                         <!-- Card body -->
                                                                                         <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4"
                                                                                         data-parent="#accordionEx7">
@@ -658,10 +676,10 @@
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- Accordion card -->
-                                                                                    
+
                                                                                     <!-- Accordion card -->
                                                                                     <div class="card">
-                                                                                        
+
                                                                                         <!-- Card header -->
                                                                                         <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading5">
                                                                                             <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
@@ -671,7 +689,7 @@
                                                                                             </h5>
                                                                                         </a>
                                                                                     </div>
-                                                                                    
+
                                                                                     <!-- Card body -->
                                                                                     <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5"
                                                                                     data-parent="#accordionEx7">
@@ -682,10 +700,10 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <!-- Accordion card -->
-                                                                                
+
                                                                                 <!-- Accordion card -->
                                                                                 <div class="card">
-                                                                                    
+
                                                                                     <!-- Card header -->
                                                                                     <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading6">
                                                                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
@@ -695,7 +713,7 @@
                                                                                         </h5>
                                                                                     </a>
                                                                                 </div>
-                                                                                
+
                                                                                 <!-- Card body -->
                                                                                 <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6"
                                                                                 data-parent="#accordionEx7">
@@ -708,10 +726,10 @@
                                                                             <!-- Accordion card -->
                                                                         </div>
                                                                         <!--/.Accordion wrapper-->
-                                                                        
+
                                                                     </div>
                                                                     <!-- Grid column -->
-                                                                    
+
                                                                 </div>
                                                                 <!-- Grid row -->
                                                             </div>
@@ -723,11 +741,11 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    
+
                                                     <!---- Micro Nutrient Section Ends -->
-                                                    
+
                                                     <!---- Suppliment Facts Section Start-->
-                                                    
+
                                                     <section class="supliment-facts">
                                                         <div class="container">
                                                             <div class="facts">
@@ -738,9 +756,9 @@
                                                             </div>
                                                         </section>
                                                         <!---- Suppliment Facts Section Ends -->
-                                                        
+
                                                         <!---- Reviews Section Start-->
-                                                        
+
                                                         <section class="reviews-section">
                                                             <div class="container">
                                                                 <div class="top-heading">
@@ -790,11 +808,11 @@
                                                                         </div>
                                                                     </div>
                                                                 </section>
-                                                                
+
                                                                 <!---- Reviews Section Ends-->
-                                                                
+
                                                                 <!---- Rating Section Start-->
-                                                                
+
                                                                 <section class="rating-section">
                                                                     <div class="container p-0">
                                                                         <div class="top-heading">
@@ -806,11 +824,11 @@
                                                                         <img src="/obvikids/images/section_banners/asset_62.png" alt="" />
                                                                     </div>
                                                                 </section>
-                                                                
+
                                                                 <!---- Rating Section Ends-->
-                                                                
+
                                                                 <!---- Complete Shake Section Start-->
-                                                                
+
                                                                 <section class="shake-section">
                                                                     <div class="container">
                                                                         <div class="shake-content">
@@ -826,11 +844,11 @@
                                                                             </div>
                                                                         </div>
                                                                     </section>
-                                                                    
+
                                                                     <!---- Complete Shake Section Ends-->
-                                                                    
+
                                                                     <!---- Risk Section Start-->
-                                                                    
+
                                                                     <section class="risk-section">
                                                                         <div class="container">
                                                                             <div class="top-icon">
@@ -850,9 +868,9 @@
                                                                             {{-- <div class="risksub_lastcontent"></div> --}}
                                                                         </div>
                                                                     </section>
-                                                                    
+
                                                                     <!---- Risk Section End-->
-                                                                    
+
                                                                     <!----Watering Flavor Section Start-->
                                                                     <section class="mouth_watering_flavors">
                                                                         <div class="container">
@@ -898,11 +916,11 @@
                                                                                 </svg>
                                                                             </div>
                                                                         </section>
-                                                                        
+
                                                                         <!----Watering Flavor Section Ends-->
-                                                                        
+
                                                                         <!----Packages Section Start-->
-                                                                        
+
                                                                         <section id="pkg_sec" class="package_section">
                                                                             <div class="container">
                                                                                 <div class="top-heading">
@@ -993,7 +1011,7 @@
                                                                                         <div class="section-footer">
                                                                                             <a href="#" class="primery_btn" id="buy-protein-2">BUY NOW</a>
                                                                                             <span>One-Time Purchase Only<p>All transactions secured and encrypted</p></span>
-                                                                                            
+
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="package">
@@ -1003,7 +1021,7 @@
                                                                                         <!-- <img src="/obvikids/images/pricing_tables/Screenshot_8.png" alt="" /> -->
                                                                                         <div class="package_detail">
                                                                                             <div class="package_price">
-                                                                                                
+
                                                                                                 <span class="new-price">69.99 USD<p class="old-price">$84.99 USD</p></span>
                                                                                                 <span>+ Free US Shipping Today</span>
                                                                                                 <div class="reviews">
@@ -1021,7 +1039,7 @@
                                                                                                 <div class="select_flavors">
                                                                                                     <h3>Select Super Collagen Flavor</h3>
                                                                                                     <select class="mdb-select md-form" id="collagen-flavor">
-                                                                                                        
+
                                                                                                         <option data-img="fruity" value="30287994290225:1">Fruity Cereal</option>
                                                                                                         <option data-img="cinnamon" value="30287992258609:1">Cinna Cereal</option>
                                                                                                         <option data-img="cocoa" value="30287993897009:1">Cocoa Cereal</option>
@@ -1032,7 +1050,7 @@
                                                                                                 <div class="select_flavors">
                                                                                                     <h3>Select Kid's Protein Flavor</h3>
                                                                                                     <select class="mdb-select md-form" id="kidsprotein-flavor">
-                                                                                                        
+
                                                                                                         <option data-img="fruity" value="31560275132465:1">Kid's Fruity Cereal</option>
                                                                                                         <option data-img="cocoa" value="31560276508721:1">Kid's Cocoa Cereal</option>
                                                                                                         <option data-img="cookie" value="2014563835953:1">Kid's Cookie Cereal</option>
@@ -1049,12 +1067,12 @@
                                                                                 </div>
                                                                             </div>
                                                                         </section>
-                                                                        
+
                                                                         <!---- Packages Section Ends -->
-                                                                        
-                                                                        
+
+
                                                                         <!---- FAQ Section Start -->
-                                                                        
+
                                                                         <section class="faq_section">
                                                                             <div class="container">
                                                                                 <div class="top-heading">
@@ -1063,10 +1081,10 @@
                                                                                 <div class="faq">
                                                                                     <!--Accordion wrapper-->
                                                                                     <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
-                                                                                        
+
                                                                                         <!-- Accordion card -->
                                                                                         <div class="card">
-                                                                                            
+
                                                                                             <!-- Card header -->
                                                                                             <div class="card-header" role="tab" id="headingTwo1">
                                                                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo1"
@@ -1077,7 +1095,7 @@
                                                                                                 </h5>
                                                                                             </a>
                                                                                         </div>
-                                                                                        
+
                                                                                         <!-- Card body -->
                                                                                         <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
                                                                                         data-parent="#accordionEx1">
@@ -1087,19 +1105,19 @@
                                                                                             of age. If you’re thinking of starting your little one on Obvi Kids Complete Protein and
                                                                                             he or she is younger
                                                                                             than 4 years old, be sure to check with your doctor first.
-                                                                                            
+
                                                                                             Still searching? If your question isn't answered here, email us at <a
                                                                                             href="mailto:hello@myobvi.com" class="linkout">hello@myobvi.com</a> with any
                                                                                             questions.
                                                                                         </div>
                                                                                     </div>
-                                                                                    
+
                                                                                 </div>
                                                                                 <!-- Accordion card -->
-                                                                                
+
                                                                                 <!-- Accordion card -->
                                                                                 <div class="card">
-                                                                                    
+
                                                                                     <!-- Card header -->
                                                                                     <div class="card-header" role="tab" id="headingTwo2">
                                                                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1110,7 +1128,7 @@
                                                                                         </h5>
                                                                                     </a>
                                                                                 </div>
-                                                                                
+
                                                                                 <!-- Card body -->
                                                                                 <div id="collapseTwo21" class="collapse" role="tabpanel" aria-labelledby="headingTwo21"
                                                                                 data-parent="#accordionEx1">
@@ -1120,19 +1138,19 @@
                                                                                     products are not intended for infants younger than 1 year of age. According to the
                                                                                     American Academy of
                                                                                     Pediatrics, infants under a year old should be breastfed.
-                                                                                    
+
                                                                                     Still searching? If your question isn't answered here, email us at <a
                                                                                     href="mailto:hello@myobvi.com" class="linkout">hello@myobvi.com</a> with any
                                                                                     questions.
                                                                                 </div>
                                                                             </div>
-                                                                            
+
                                                                         </div>
                                                                         <!-- Accordion card -->
-                                                                        
+
                                                                         <!-- Accordion card -->
                                                                         <div class="card">
-                                                                            
+
                                                                             <!-- Card header -->
                                                                             <div class="card-header" role="tab" id="headingThree31">
                                                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1143,7 +1161,7 @@
                                                                                 </h5>
                                                                             </a>
                                                                         </div>
-                                                                        
+
                                                                         <!-- Card body -->
                                                                         <div id="collapseThree31" class="collapse" role="tabpanel" aria-labelledby="headingThree31"
                                                                         data-parent="#accordionEx1">
@@ -1155,19 +1173,19 @@
                                                                             product used as sole-source nutrition, a child using Obvi Kids Complete Protein in this
                                                                             way should have close
                                                                             medical supervision.
-                                                                            
+
                                                                             Still searching? If your question isn't answered here, email us at <a
                                                                             href="mailto:hello@myobvi.com" class="linkout">hello@myobvi.com</a> with any
                                                                             questions.
                                                                         </div>
                                                                     </div>
-                                                                    
+
                                                                 </div>
-                                                                
-                                                                
+
+
                                                                 <!-- Accordion card -->
                                                                 <div class="card">
-                                                                    
+
                                                                     <!-- Card header -->
                                                                     <div class="card-header" role="tab" id="headingThree32">
                                                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1178,7 +1196,7 @@
                                                                         </h5>
                                                                     </a>
                                                                 </div>
-                                                                
+
                                                                 <!-- Card body -->
                                                                 <div id="collapseThree32" class="collapse" role="tabpanel" aria-labelledby="headingThree32"
                                                                 data-parent="#accordionEx1">
@@ -1195,12 +1213,12 @@
                                                                     questions.
                                                                 </div>
                                                             </div>
-                                                            
+
                                                         </div>
-                                                        
+
                                                         <!-- Accordion card -->
                                                         <div class="card">
-                                                            
+
                                                             <!-- Card header -->
                                                             <div class="card-header" role="tab" id="headingThree33">
                                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1211,7 +1229,7 @@
                                                                 </h5>
                                                             </a>
                                                         </div>
-                                                        
+
                                                         <!-- Card body -->
                                                         <div id="collapseThree33" class="collapse" role="tabpanel" aria-labelledby="headingThree33"
                                                         data-parent="#accordionEx1">
@@ -1226,12 +1244,12 @@
                                                             questions.
                                                         </div>
                                                     </div>
-                                                    
+
                                                 </div>
-                                                
+
                                                 <!-- Accordion card -->
                                                 <div class="card">
-                                                    
+
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="headingThree34">
                                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1241,7 +1259,7 @@
                                                         </h5>
                                                     </a>
                                                 </div>
-                                                
+
                                                 <!-- Card body -->
                                                 <div id="collapseThree34" class="collapse" role="tabpanel" aria-labelledby="headingThree34"
                                                 data-parent="#accordionEx1">
@@ -1252,12 +1270,12 @@
                                                     questions.
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
-                                        
+
                                         <!-- Accordion card -->
                                         <div class="card">
-                                            
+
                                             <!-- Card header -->
                                             <div class="card-header" role="tab" id="headingThree35">
                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1268,7 +1286,7 @@
                                                 </h5>
                                             </a>
                                         </div>
-                                        
+
                                         <!-- Card body -->
                                         <div id="collapseThree35" class="collapse" role="tabpanel" aria-labelledby="headingThree35"
                                         data-parent="#accordionEx1">
@@ -1279,12 +1297,12 @@
                                             questions.
                                         </div>
                                     </div>
-                                    
+
                                 </div>
-                                
+
                                 <!-- Accordion card -->
                                 <div class="card">
-                                    
+
                                     <!-- Card header -->
                                     <div class="card-header" role="tab" id="headingThree36">
                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1294,7 +1312,7 @@
                                         </h5>
                                     </a>
                                 </div>
-                                
+
                                 <!-- Card body -->
                                 <div id="collapseThree36" class="collapse" role="tabpanel" aria-labelledby="headingThree36"
                                 data-parent="#accordionEx1">
@@ -1305,12 +1323,12 @@
                                     questions.
                                 </div>
                             </div>
-                            
+
                         </div>
-                        
+
                         <!-- Accordion card -->
                         <div class="card">
-                            
+
                             <!-- Card header -->
                             <div class="card-header" role="tab" id="headingThree37">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1321,7 +1339,7 @@
                                 </h5>
                             </a>
                         </div>
-                        
+
                         <!-- Card body -->
                         <div id="collapseThree37" class="collapse" role="tabpanel" aria-labelledby="headingThree37"
                         data-parent="#accordionEx1">
@@ -1333,12 +1351,12 @@
                             questions.
                         </div>
                     </div>
-                    
+
                 </div>
-                
+
                 <!-- Accordion card -->
                 <div class="card">
-                    
+
                     <!-- Card header -->
                     <div class="card-header" role="tab" id="headingThree38">
                         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1348,7 +1366,7 @@
                         </h5>
                     </a>
                 </div>
-                
+
                 <!-- Card body -->
                 <div id="collapseThree38" class="collapse" role="tabpanel" aria-labelledby="headingThree38"
                 data-parent="#accordionEx1">
@@ -1361,29 +1379,29 @@
                     questions.
                 </div>
             </div>
-            
+
         </div>
-        
-        
+
+
         {{-- <div id="light">
             <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ONQA9wh7LVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        
+
         <div id="fade" onClick="lightbox_close();"></div>
-        
+
         <div>
             <a href="#" onclick="lightbox_open();">Watch video</a>
         </div>
-        
+
         <div class="test">test</div>
         <div class="test2">test2</di> --}}
-            
-            
-            
+
+
+
             <!-- Accordion card -->
             <div class="card">
-                
+
                 <!-- Card header -->
                 <div class="card-header" role="tab" id="headingThree39">
                     <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
@@ -1394,7 +1412,7 @@
                     </h5>
                 </a>
             </div>
-            
+
             <!-- Card body -->
             <div id="collapseThree39" class="collapse" role="tabpanel" aria-labelledby="headingThree39"
             data-parent="#accordionEx1">
@@ -1406,7 +1424,7 @@
                 questions.
             </div>
         </div>
-        
+
     </div>
 </div>
 <!-- Accordion wrapper -->
